@@ -1,34 +1,42 @@
 <!doctype html>
+
+{# The final, outermost wrapper for the site #}
+
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-  	<meta name='viewport' content='width=device-width'>
 
-    <title>{{ site.title }}</title>
-    <meta name='description' content={{ site.description }}>
-    <meta name="theme-color" content="#ffffff"/>
+<head>
+  <meta charset="utf-8">
+  <meta name='viewport' content='width=device-width'>
 
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
-    <link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
-    <link rel="manifest" href="/manifest.json" />
+  <title>{{ site.title }}</title>
+  <meta name='description' content={{ site.description }}>
+  <meta name="theme-color" content="#ffffff" />
 
-    <link rel="preload" href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css"></noscript>
-    <link href="/assets/styles/tailwind.css" rel="stylesheet" />
-    <link href="/assets/styles/index.css" rel="stylesheet" />
-    <script>
-      const isDarkMode = () => localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
-      if (isDarkMode()) {
-        document.documentElement.classList.add('dark')
-      } else {
-        document.documentElement.classList.remove('dark')
-      }
-    </script>
-  </head>
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json" />
 
-  <body class="dark:text-white dark:bg-black">
-    {{ content | safe }}
-    
+  <link rel="preload" href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css">
+  </noscript>
+  <link href="/assets/styles/tailwind.css" rel="stylesheet" />
+  <link href="/assets/styles/index.css" rel="stylesheet" />
+  <script>
+    const isDarkMode = () => localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    if (isDarkMode()) {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+  </script>
+</head>
+
+<body class="bg-amber-50 dark:text-white/[.90] dark:bg-amber-900">
+  
+  {{ content | safe }} <!-- main.njk -->
+  {% include "footer.njk" %}
+
   <script>
     document.getElementById("toggleDarkMode").addEventListener("click", function() {
       if (isDarkMode()) {
@@ -40,5 +48,6 @@
       }
     });
   </script>
-  </body>
+</body>
+
 </html>

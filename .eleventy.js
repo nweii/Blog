@@ -31,7 +31,8 @@ module.exports = function(eleventyConfig) {
 
   // filter to format post date to year-month-day
   eleventyConfig.addFilter("postDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toFormat('yyyy-MM-dd');
+    // return DateTime.fromJSDate(dateObj).toFormat('yyyy-MM-dd');
+    return DateTime.fromJSDate(dateObj).toFormat("LLLL MM, yyyy");
   })
 
   // Enable us to iterate over all the tags, excluding posts and all

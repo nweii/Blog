@@ -2,13 +2,14 @@
 layout: base
 ---
 
-<div class="min-h-screen flex flex-col">
-
-<main class="flex-1 w-10/12 max-w-screen-sm md:max-w-screen-md mx-auto">
-
-  {{ content |safe }}
-
+<!-- set up two-column on medium+ sizes -->
+<div class="pt-10 md:grid md:grid-cols-3 gap-8 min-h-screen flex flex-col flex-1 w-11/12 max-w-screen-sm md:max-w-screen-md mx-auto">
+  <!-- sidebar -->
+  <div class="col-span-1"> 
+    {% include "nav.njk" %}
+  </div>
+  <!-- main content area -->
+<main class="col-span-2 space-y-12">
+    {{ content | safe }}
 </main>
-
-{% include "footer.njk" %}
 </div>

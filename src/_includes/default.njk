@@ -1,21 +1,9 @@
 ---
 layout: main
 ---
-{% if subtitle != "" %}
-<p class="text-5xl md:text-6xl font-black pt-10 md:pt-20 leading-tight">
- {{ title }}
-</p>
-<p class="text-5xl md:text-6xl font-black pb-10 md:pb-20 leading-tight">
- {{ subtitle }}
-</p>
+<div class="md:grid md:grid-cols-3 gap-8">
 
-{% else %}
-<p class="text-5xl md:text-6xl font-black py-10 md:py-20 leading-tight">
- {{ title }}
-</p>
-
-{% endif %}
-
-{% include "nav.njk" %}
-
-{{ content | safe}}
+  <div class="col-span-2">
+    {{ content | safe }}
+  </div>
+</div>

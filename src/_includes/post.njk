@@ -2,29 +2,23 @@
 layout: main
 ---
 
-{% include "nav.njk" %}
-
-<p class="text-5xl md:text-6xl font-black pt-10 md:pt-30 pb-4 leading-tight">
-    {{ title}}
+<p class="postTitle">
+    {{title}}
+</p>
+<p class="date">
+    {{ date | postDate }}
 </p>
 
-<div>
-    <em>{{ date | postDate }}</em> &middot; 
-    <span>{{ content | readTime }} min read</span>
-</div>
-
-<div class="mt-3 pb-10">
+<article class="postContent">
+  {{ content | safe }}
+  More posts tagged:
+  <div class="mt-3 pb-10">
   {% for tag in tags %}
     {% if tag != "posts" %}
       <a href="/tags/{{ tag }}">
-        <span class="post-tag">{{ tag }}</span>
+        <span class="post-tag">{{ tag }}</span><br>
       </a>
     {% endif %}
   {% endfor %}
   </div>
-
-<div class="prose dark:prose-invert hover:prose-a:text-blue-500">
-  {{ content | safe }}
-</div>
-
-{% include "author.njk" %}
+</article>

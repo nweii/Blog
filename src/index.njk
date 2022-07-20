@@ -1,7 +1,7 @@
 ---
-layout: default
-title: Blog
-subtitle: 部落格
+layout: main
+title: Nathan Cheng
+subtitle: Thoughts, notes, reactions, what have you.
 pagination:
   data: collections.posts
   size: 10
@@ -11,16 +11,22 @@ pagination:
 
 {% for post in pagination.items %}
 {% if post.data.published %}
-<div class="py-4">
-  <p>
-    <span class="text-2xl sm:text-4xl font-bold hover:text-blue-700 leading-tight"><a href="{{ post.url }}">{{ post.data.title }}</a></span>
-    <span class="text-base sm:text-2xl font-normal"> &middot; {{ post.content | safe | readTime }} min read</span>
+<div>
+  <p class="postTitle hover:text-blue-700">
+    <a href="{{ post.url }}">{{ post.data.title }}</a>
   </p>
-  <em>{{ post.date | postDate }}</em>
-  <p class="mt-4">{{ post.data.post_excerpt }}...</p>
+  <!-- <span class="text-base sm:text-2xl font-normal"> &middot; {{ post.content | safe | readTime }} min read</span> -->
+  <p class="date">
+    {{ post.data.date | postDate }}
+  </p>
+  <!-- <p class="mt-4">{{ post.data.post_excerpt }}...</p> -->
+<!-- template content -->
+  <article class="postContent">
+  {{ post.templateContent | safe }}
+  </article>
   
-  <div class="flex justify-between items-center mt-4">
-    <div class="flex-1 pr-4">
+  <div class="flex mt-4 mb-8">
+    <div>
       {% for tag in post.data.tags %}
         {% if tag != "posts" %}
           <a href="/tags/{{ tag }}" class="">
@@ -29,8 +35,6 @@ pagination:
         {% endif %}
       {% endfor %}
     </div>
-
-    <a class="flex-none hover:underline font-semibold text-blue-700" href="{{ post.url }}">Read this post &rarr;</a>
   </div>
 
 </div>
