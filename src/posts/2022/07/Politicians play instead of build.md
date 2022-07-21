@@ -3,7 +3,6 @@ title: Politicians play instead of build
 date: 2022-07-01
 tags:
 - politics
-- links
 ---
 
 <blockquote class="quoteback" darkmode="" data-title="Opinion%20%7C%20What%20America%20Needs%20Is%20a%20Liberalism%20That%20Builds" data-author="@nytimes" cite="https://www.nytimes.com/2022/05/29/opinion/biden-liberalism-infrastructure-building.html">
