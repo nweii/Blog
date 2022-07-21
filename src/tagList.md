@@ -10,6 +10,9 @@ eleventyComputed:
 ---  
 
 {% for post in collections[tag] %}
+<p class="text-3xl font-bold text-stone-400">
+  Posts tagged <em>{{ tag }}</em>
+</p>
 <div class="mb-5">
   <p>
     <span class="text-stone-500 text-xl font-bold hover:underline hover:text-black">
