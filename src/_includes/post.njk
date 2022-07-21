@@ -2,12 +2,14 @@
 layout: main
 ---
 
-<p class="postTitle">
+<div>
+  <p class="postTitle">
     {{title}}
-</p>
-<p class="date">
+  </p>
+  <p class="date">
     {{ date | postDate }}
-</p>
+  </p>
+</div>
 
 <article class="postContent">
   {{ content | safe }}
