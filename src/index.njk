@@ -8,14 +8,14 @@ pagination:
   reverse: true
   alias: posts
 ---
-<!-- Space between each post -->
-<div class="space-y-12">
-  <!-- Gather posts and display each in a feed -->
-  {% for post in pagination.items %}
-  {% if post.data.published %}
+<!-- Gather posts and display each in a feed -->
+<div class="flex-col">
+{% for post in pagination.items %}
+{% if post.data.published %}
+<div class="post">
+  <!-- POST METADATA -->
   <div>
-    <!-- POST METADATA -->
-    <p class="postTitle hover:text-blue-700">
+    <p class="post-title hover:text-blue-700 hover:underline">
       <a href="{{ post.url }}">{{ post.data.title }}</a>
     </p>
     <!-- <span class="text-base sm:text-2xl font-normal"> &middot; {{ post.content | safe | readTime }} min read</span> -->
@@ -23,28 +23,25 @@ pagination:
       {{ post.data.date | postDate }}
     </p>
     <!-- <p class="mt-4">{{ post.data.post_excerpt }}...</p> -->
-    
-    <!-- POST CONTENT -->
-    <article class="postContent">
-      {{ post.templateContent | safe }}
-    </article>
-    <!-- POST TAG(S) -->
-    <div class="flex mt-4 mb-8">
-      <div>
-        {% for tag in post.data.tags %}
-        {% if tag != "posts" %}
-        <a href="/tags/{{ tag }}" class="">
-          <div class="post-tag">{{ tag }}</div>
-        </a>
-        {% endif %}
-        {% endfor %}
-      </div>
-    </div>
-
   </div>
-
-  {% endif %}
-  {% endfor %}
+  <!-- POST CONTENT -->
+  <article class="post-content">
+    {{ post.templateContent | safe }}
+  </article>
+  <!-- POST TAG(S) -->
+  <div class="flex mt-4 mb-8">
+    <div>
+      {% for tag in post.data.tags %}
+      {% if tag != "posts" %}
+      <a href="/tags/{{ tag }}" class="">
+        <div class="post-tag">{{ tag }}</div>
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
 </div>
-
-{% include "paginator.njk" %}
+{% endif %}
+{% endfor %}
+</div>
+<!-- {% include "paginator.njk" %} -->

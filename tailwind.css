@@ -3,21 +3,29 @@
 @tailwind utilities;
 
 .paginator-text {
-  @apply text-gray-600 font-bold py-2 px-4;
+  @apply text-stone-500 py-2 px-4;
 }
 
 .post-tag {
-  @apply inline-block text-base rounded-full underline text-stone-500;
+  @apply inline-block italic rounded-full hover:underline text-stone-500;
 }
 
 .date {
-  @apply text-base text-stone-500;
+  @apply text-sm text-stone-500;
 }
 
-.postTitle {
+.post-title {
   @apply text-2xl text-stone-500 font-bold pb-2 leading-tight; 
 }
 
-.postContent {
+.post-content {
   @apply pt-8 prose dark:prose-invert hover:prose-a:text-blue-500;
+}
+
+.post {
+  @apply mb-12;
+}
+
+.post-link {
+  @apply mb-6;
 }
