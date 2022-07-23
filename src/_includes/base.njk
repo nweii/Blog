@@ -22,19 +22,12 @@
   </noscript>
   <link href="/assets/styles/tailwind.css" rel="stylesheet" />
   <link href="/assets/styles/index.css" rel="stylesheet" />
-  <script>
-    const isDarkMode = () => localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
-    if (isDarkMode()) {
-      document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-    }
-  </script>
+  <script src="https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1.0.8/quoteback.js"></script>
 </head>
 
-<body class="bg-amber-50 dark:text-white/[.90] dark:bg-amber-900">
-  
-  {{ content | safe }} <!-- main.njk -->
+<body class="bg-amber-50 text-black/[.90] dark:text-white/[.90] dark:bg-emerald-900">
+  <!-- main.njk -->
+  {{ content | safe }}
   {% include "footer.njk" %}
 
   <script>

@@ -3,19 +3,19 @@
 @tailwind utilities;
 
 .paginator-text {
-  @apply text-stone-500 py-2 px-4;
+  @apply text-stone-500 dark:text-stone-300 py-2 px-4;
 }
 
 .post-tag {
-  @apply inline-block italic rounded-full hover:underline text-stone-500;
+  @apply inline-block italic rounded-full hover:underline text-stone-500 dark:text-stone-300;
 }
 
 .date {
-  @apply text-sm text-stone-500;
+  @apply text-sm text-stone-500 dark:text-stone-300;
 }
 
 .post-title {
-  @apply text-2xl text-stone-500 font-bold pb-2 leading-tight; 
+  @apply text-xl text-stone-500 dark:text-stone-300 font-bold pb-2 leading-tight; 
 }
 
 .post-content {

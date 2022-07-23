@@ -19,6 +19,4 @@ So, they moved from six principles to three core areas of focus:<br>
 <footer>@rawstudioco<cite> <a href="https://raw.studio/blog/spotify-embodiment-emotional-design/">https://raw.studio/blog/spotify-embodiment-emotional-design/</a></cite></footer>
 </blockquote>
 
-<script note="" src="https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js"></script>
-
 I like how this focuses on the aspect of design that appeals to how users feel. Data/research are obviously a key factor in the process, but I appreciate that the article gives so much weight to polish and delight.

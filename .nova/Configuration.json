@@ -1,3 +1,4 @@
 {
+  "tailwindcss.workspace.tailwindConfig" : "\/Users\/nathancheng\/Documents\/GitHub\/blog-eleventy2\/tailwind.config.js",
   "workspace.name" : "Blog"
 }

@@ -2,14 +2,16 @@
 layout: base
 ---
 
+<!-- md:grid md:grid-cols-3 -->
+
 <!-- set up two-column on medium+ sizes -->
-<div class="pt-10 md:grid md:grid-cols-3 gap-8 min-h-screen flex flex-col flex-1 w-11/12 max-w-screen-sm md:max-w-screen-md mx-auto">
+<div class="mt-9 flex flex-col md:flex-row gap-8 min-h-screen flex-1 w-11/12 max-w-screen-sm md:max-w-fit mx-auto">
   <!-- sidebar -->
-  <div class="col-span-1"> 
+  <div class="w-full flex-initial md:basis-56 md:float-left"> 
     {% include "nav.njk" %}
   </div>
   <!-- main content area -->
-<main class="col-span-2">
+<main class="w-full flex-auto md:basis-9/12">
     {{ content | safe }}
 </main>
 </div>
