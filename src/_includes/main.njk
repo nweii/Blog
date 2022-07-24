@@ -2,16 +2,18 @@
 layout: base
 ---
 
-<!-- md:grid md:grid-cols-3 -->
-
-<!-- set up two-column on medium+ sizes -->
-<div class="mt-9 flex flex-col md:flex-row gap-8 min-h-screen flex-1 w-11/12 max-w-screen-sm md:max-w-fit mx-auto">
-  <!-- sidebar -->
-  <div class="w-full flex-initial md:basis-56 md:float-left"> 
-    {% include "nav.njk" %}
+<!-- CONTENT AREA WITH TWO-COLUMNS ON MEDIUM SIZES -->
+<div class="mx-auto md:max-w-7xl px-4">
+  <div class="px-2 mt-9 flex flex-col gap-8 md:gap-4 md:flex-row min-h-screen">
+    <!-- sidebar -->
+    <div class="md:float-left px-2 w-100 md:w-64 flex-initial md:basis-56">
+      {% include "nav.njk" %}
+    </div>
+    <!-- main content area -->
+    <main class="float-left w-full md:w-9/12 px-2 flex-auto">
+      {{ content | safe }}
+    </main>
   </div>
-  <!-- main content area -->
-<main class="w-full flex-auto md:basis-9/12">
-    {{ content | safe }}
-</main>
 </div>
+<!-- FOOTER -->
+{% include "footer.njk" %}

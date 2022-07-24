@@ -1,6 +1,0 @@
----
-layout: main
-title: About
----
-
-I'm a visual designer who's interested in emerging technology, code, interfaces, and visual storytelling. I’m often reading about current & emerging tech, digital trends, aesthetic movements, and entertainment media—including the ways they intersect and the people who push things forward.
