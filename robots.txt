@@ -1,4 +1,4 @@
-Sitemap: https://rongying.co/sitemap.xml
+Sitemap: https://blog.nathancheng.work/sitemap.xml
 
 User-agent: *
 Disallow:

@@ -6,7 +6,7 @@ layout: base
 <div class="mx-auto md:max-w-7xl px-4 w-screen">
   <div class="px-2 mt-9 flex flex-col gap-8 md:gap-4 md:flex-row min-h-screen">
     <!-- sidebar -->
-    <div class="md:float-left px-2 w-100 md:w-64 flex-initial md:basis-56">
+    <div class="md:float-left px-2 w-100 flex-initial md:basis-56">
       {% include "nav.njk" %}
     </div>
     <!-- main content area -->
@@ -14,6 +14,6 @@ layout: base
       {{ content | safe }}
     </main>
   </div>
+  <!-- FOOTER -->
+  {% include "footer.njk" %}
 </div>
-<!-- FOOTER -->
-{% include "footer.njk" %}

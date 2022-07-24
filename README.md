@@ -27,7 +27,7 @@ This is forked from [Rong Ying's starter](https://github.com/kohrongying/11ty-bl
   - `/tags/tag-name` - shows all posts related to that tag (`tagList.md`)
 
 + Sitemap and Robots.txt 
-  - Change site url in `_data/site.json`
+  - Change site url in `_data/metadata.json`
 
 + Shortcode to handle images
   - Add image under `src/assets/img/posts` and use the asset_img short code
