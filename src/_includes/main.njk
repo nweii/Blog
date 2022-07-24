@@ -3,14 +3,14 @@ layout: base
 ---
 
 <!-- CONTENT AREA WITH TWO-COLUMNS ON MEDIUM SIZES -->
-<div class="mx-auto md:max-w-7xl px-4">
+<div class="mx-auto md:max-w-7xl px-4 min-w-full md:min-w-fit">
   <div class="px-2 mt-9 flex flex-col gap-8 md:gap-4 md:flex-row min-h-screen">
     <!-- sidebar -->
     <div class="md:float-left px-2 w-100 md:w-64 flex-initial md:basis-56">
       {% include "nav.njk" %}
     </div>
     <!-- main content area -->
-    <main class="float-left w-full md:w-9/12 px-2 flex-auto">
+    <main class="float-left w-full md:w-3/4 md:max-w-xl flex-shrink px-2">
       {{ content | safe }}
     </main>
   </div>

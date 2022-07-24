@@ -19,10 +19,10 @@
 }
 
 .post-content {
-  @apply pt-8 prose dark:prose-invert hover:prose-a:text-blue-500;
+  @apply pt-8 leading-relaxed prose dark:prose-invert;
 }
 
-.post {
+.post-inFeed {
   @apply mb-12;
 }
 

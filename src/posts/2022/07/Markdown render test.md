@@ -1,7 +1,7 @@
 ---
 title: Markdown render test
 date: 2020-07-01
-published: false
+published: true
 tags:
 - test
 ---
