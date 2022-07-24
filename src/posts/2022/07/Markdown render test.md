@@ -1,6 +1,6 @@
 ---
 title: Markdown render test
-date: 2020-07-01
+date: 2022-07-01
 published: true
 tags:
 - test
@@ -8,7 +8,7 @@ tags:
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
 
 <!-- excerpt -->
-{% asset_img 'mailbox.jpg' 'mailbox' %}
+![mailbox](/assets/img/posts/mailbox.jpg)
 
 # h1 Heading
 ## h2 Heading

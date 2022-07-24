@@ -1,6 +1,7 @@
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const markdownIt = require('markdown-it')
 const markdownItAnchor = require('markdown-it-anchor')
+const markdownItBlock = require('markdown-it-block-image')
 const { DateTime } = require("luxon")
 
 module.exports = function(eleventyConfig) {
@@ -56,12 +57,13 @@ module.exports = function(eleventyConfig) {
       class: 'header-anchor',
     })
   })
+  md.use(markdownItBlock)
   eleventyConfig.setLibrary('md', md)
 
   // creates a shortcode that allows inserting images with alt-texts. Usage {% asset_img 'imagename','alt-text' %}
   // you can pass an optional third argument to give the image a custom path. defaults to /assets/img/posts/
   eleventyConfig.addShortcode('asset_img', (filename, alt, path = '/assets/img/posts/') => 
-  `<img class="my-4" src="${path}${filename}" alt="${alt}" />`
+  `<img class="my-4 rounded-md" src="${path}${filename}" alt="${alt}" />`
   )
 
   return {
