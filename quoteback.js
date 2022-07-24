@@ -276,7 +276,7 @@ document.addEventListener("DOMContentLoaded", function(){
           <div class="quoteback-content"></div>
         </div>
         <div class="quoteback-head">
-          <div class="quoteback-avatar"><img class="mini-favicon" src="" /></div>
+          <div class="quoteback-avatar"><img alt="source website favicon" class="mini-favicon" src="" /></div>
           <div class="quoteback-metadata">
             <div class="metadata-inner">
               <div aria-label="" id="quoteback-author" class="quoteback-author"></div>
