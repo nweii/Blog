@@ -73,7 +73,7 @@ var quoteStyle  = `
 }
 
 .quoteback-container .quoteback-head {
-  border-bottom: 1px solid var(--border-color-normal);
+  border-top: 1px solid var(--border-color-normal);
   display: flex;
   flex-flow: row nowrap;
   justify-content: start;
@@ -272,6 +272,9 @@ document.addEventListener("DOMContentLoaded", function(){
       template.innerHTML=`
       <style>${quoteStyle}</style>
       <div class="quoteback-container" role="quotation" aria-labelledby="quoteback-author" tabindex="0">
+        <div id="quoteback-parent" class="quoteback-parent">
+          <div class="quoteback-content"></div>
+        </div>
         <div class="quoteback-head">
           <div class="quoteback-avatar"><img class="mini-favicon" src="" /></div>
           <div class="quoteback-metadata">
@@ -281,9 +284,6 @@ document.addEventListener("DOMContentLoaded", function(){
             </div>
           </div>
           <div class="quoteback-backlink"><a target="_blank" aria-label="go to the full text of this quotation" rel="noopener" href="" class="quoteback-arrow">Go to text <span class="right-arrow">&#8594;</span></a></div>
-        </div>
-        <div id="quoteback-parent" class="quoteback-parent">
-          <div class="quoteback-content"></div>
         </div>
       </div>`;
 
