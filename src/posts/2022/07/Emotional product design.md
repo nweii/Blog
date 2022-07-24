@@ -5,7 +5,7 @@ tags:
 - design
 ---
 
-
+[Jasmine Bilham writing about Spotify's Emotional Design - Raw Studio](https://raw.studio/blog/spotify-embodiment-emotional-design/):
 <blockquote class="quoteback" darkmode="" data-title="Spotify%E2%80%99s%20Embodiment%20Of%20Emotional%20Design%20-%20Raw.Studio" data-author="@rawstudioco" cite="https://raw.studio/blog/spotify-embodiment-emotional-design/">
 Don Norman, often credited as the father of UX, coined the term ‘Emotional Design’ in his book, Emotional Design: Why We Love (or Hate) Everyday Things in 2003. At almost twenty years later, the concepts still remain relevant. Norman believes that good emotional design works on three levels: visceral, behavioural and reflective.
 <em>“Everything has a personality: everything sends an emotional signal. Even where this was not the intention of the designer, the people who view the website infer personalities and experience emotions.”</em><br>

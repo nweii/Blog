@@ -19,7 +19,7 @@
 }
 
 .post-content {
-  @apply pt-8 leading-relaxed prose dark:prose-invert;
+  @apply pt-8 leading-relaxed prose dark:prose-invert prose-img:rounded-md;
 }
 
 .post-inFeed {
