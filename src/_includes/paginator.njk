@@ -36,13 +36,13 @@
         {% for pageEntry in pagination.pages %}
         {% if page.url ==  pagination.hrefs[loop.index0] %}
         <a href="{{ pagination.hrefs[loop.index0] }}" aria-current="page">
-            <button class="border bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4">
+            <button class="border bg-gray-300 hover:bg-gray-400 text-stone-800 font-bold py-2 px-4">
                 {{ loop.index }}
             </button>
         </a>
         {% else %}
         <a href="{{ pagination.hrefs[loop.index0] }}">
-            <button class="border border-gray-300 bg-white hover:bg-gray-300 text-gray-800 font-bold py-2 px-4">
+            <button class="border border-gray-300 bg-white hover:bg-gray-300 text-stone-800 font-bold py-2 px-4">
                 {{ loop.index }}
             </button>
         </a>
