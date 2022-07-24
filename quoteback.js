@@ -41,7 +41,7 @@ var quoteStyle  = `
   border: 1px solid var(--border-color-normal);
   border-radius: 8px;
   margin-bottom: 25px;
-  max-width: 800px;
+  max-width: 65ch;
   background-color: var(--background-color);
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
