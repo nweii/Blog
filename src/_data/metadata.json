@@ -10,7 +10,6 @@
     "feed": {
         "filename": "feed.xml",
         "path": "/feed.xml",
-        "url":"https://blog.nathancheng.work/feed.xml",
-        "id": "https://blog.nathancheng.work/"
+        "url":"https://blog.nathancheng.work/feed.xml"
     }
 }
