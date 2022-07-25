@@ -21,23 +21,23 @@ p {
 }
 
 .paginator-text {
-  @apply text-stone-500 dark:text-stone-300 py-2 px-4;
+  @apply text-stone-500 dark:text-stone-50/[.80] py-2 px-4;
 }
 
 .post-tag {
-  @apply inline-block italic rounded-full hover:underline text-stone-500 dark:text-stone-300;
+  @apply inline-block italic rounded-full hover:underline text-stone-500 dark:text-stone-50/[.80];
 }
 
 .date {
-  @apply text-sm text-stone-500 dark:text-stone-300;
+  @apply text-sm text-stone-500 dark:text-stone-50/[.80];
 }
 
 .post-title {
-  @apply text-xl text-stone-500 dark:text-stone-300 font-bold pb-2 leading-tight; 
+  @apply text-xl text-stone-500 dark:text-stone-50/[.80] font-bold pb-2 leading-tight; 
 }
 
 .post-content {
-  @apply pt-8 leading-relaxed prose dark:prose-invert prose-img:rounded-md;
+  @apply leading-relaxed prose prose-stone dark:prose-invert prose-img:rounded-md prose-ul:list-outside;
 }
 
 .post-inFeed {

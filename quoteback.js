@@ -3,35 +3,42 @@ var quoteStyle  = `
 .quoteback-container {
   --background-color: white;
   --border-color-normal: #e7e5e4;
-  --border-color-hover: #a8a29e;
+  --border-color-hover: #d6d3d1;
   --author-color: #1c1917;
   --title-color: #57534e;
   --gototext-color: #78716c;
   --content-color: #57534e;
-  --internal-blockquote-color: #5C6D73
+  --internal-blockquote-color: #5C6D73;
+  --shadow-none: 0 0 #0000;
+  --shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
 }
 
 /* .quoteback-container.dark-theme {
-  --background-color: #1c1917;
-  --border-color-normal: #253237;
-  --border-color-hover: #5C6D73;
-  --author-color: #E0FBFC;
-  --title-color: #9DB8BF;
-  --gototext-color: #5C6D73;
-  --content-color: #9DB8BF;
+  --background-color: #fafaf9;
+  --border-color-normal: #e7e5e4;
+  --border-color-hover: #d6d3d1;
+  --author-color: #292524;
+  --title-color: #57534e;
+  --gototext-color: #a8a29e;
+  --content-color: #57534e;
   --internal-blockquote-color: #5C6D73
 } */
 
 @media (prefers-color-scheme: dark) {
   .quoteback-container {
-    --background-color: #111827;
-    --border-color-normal: #374151;
-    --border-color-hover: #6b7280;
-    --author-color: hsla(0, 0%, 100%, 0.77);
-    --title-color: hsla(0, 0%, 100%, 0.57);
-    --gototext-color: #9ca3af;
-    --content-color: hsla(0, 0%, 100%, 0.77);
-    --internal-blockquote-color: #5C6D73
+    --background-color: rgba(28,25,23,0.7);
+    --border-color-normal: hsla(60,9%,98%,0.2);
+    --border-color-hover: hsla(60,9%,98%,0.2);
+    --author-color: hsla(60,9%,98%,0.98);
+    --title-color: hsla(60,9%,98%,0.8);
+    --gototext-color: hsla(60,9%,98%,0.7);
+    --content-color: hsla(60,9%,98%,0.8);
+    --internal-blockquote-color: #5C6D73;
+    --shadow: 0 1px 2px 0 rgb(0 0 0 / 0.2);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.2), 0 4px 6px -4px rgb(0 0 0 / 0.2);
+    --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.2), 0 8px 10px -6px rgb(0 0 0 / 0.2);
   }
 } 
 
@@ -43,6 +50,7 @@ var quoteStyle  = `
   margin-bottom: 25px;
   max-width: 65ch;
   background-color: var(--background-color);
+  box-shadow: var(--shadow);
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
@@ -52,7 +60,7 @@ var quoteStyle  = `
 
 .quoteback-container:hover {
   transform: translateY(-3px);
-  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--shadow-xl);
   border: 1px solid var(--border-color-hover)
 }
 

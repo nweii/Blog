@@ -2,12 +2,12 @@
 layout: main
 ---
 
-<div>
+<div id="postData" class="space-y-2 mb-5">
+  <p class="date">
+  {{ date | postDate }}
+</p>
   <p class="post-title">
     {{title}}
-  </p>
-  <p class="date">
-    {{ date | postDate }}
   </p>
 </div>
 

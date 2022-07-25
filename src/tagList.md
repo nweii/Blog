@@ -9,21 +9,17 @@ eleventyComputed:
   title: "{{ tag }}"
 ---  
 
-<p class="text-3xl font-bold text-stone-400">
+<p class="text-2xl font-bold text-stone-400 mb-6">
   Posts tagged <em>{{ tag }}</em>
 </p>
 <!-- Enclose post list with div -->
 <div>
 {% for post in collections[tag] %}
-<div class="mb-5">
-  <p>
-    <span class="text-stone-500 text-xl font-bold hover:underline hover:text-black">
-      <a href="{{ post.url }}">{{ post.data.title }}</a></span>
-  </p>
-  <em>{{ post.date | postDate }}</em>
-  <!-- <p class="mt-4">{{ post.data.post_excerpt }}...
-    <span class="hover:underline text-indigo-500"><a href="{{ post.url }}">Read More</a></span>
-  </p> -->
+<div class="space-y-2 mb-5">
+    <p class="date">{{ post.date | postDate }}</p>
+    <p class="text-wide post-title hover:text-blue-700 hover:underline">
+      <a href="{{ post.url }}">{{ post.data.title }}</a>
+    </p>
 </div>
 {% endfor %}
 </div>
