@@ -4,7 +4,8 @@ layout: base
 
 <!-- CONTENT AREA WITH TWO-COLUMNS ON MEDIUM SIZES -->
 <div class="mx-auto md:max-w-7xl px-4 w-screen">
-  <div class="px-2 mt-9 flex flex-col gap-8 md:gap-4 md:flex-row min-h-screen">
+  <div class="flex min-h-screen">
+    <div class="flex flex-col gap-8 md:gap-4 md:flex-row mt-9 px-2 relative">
     <!-- sidebar -->
     <div class="md:float-left px-2 w-100 flex-initial md:basis-56">
       {% include "nav.njk" %}
@@ -13,6 +14,7 @@ layout: base
     <main class="float-left w-full md:w-[70%] md:max-w-screen-md px-2 flex-grow">
       {{ content | safe }}
     </main>
+  </div>
   </div>
   <!-- FOOTER -->
   {% include "footer.njk" %}

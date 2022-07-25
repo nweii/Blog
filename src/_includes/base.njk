@@ -9,7 +9,7 @@
 
   <title>Nathan Cheng | {{ title }}</title>
   <meta name='description' content="{{ metadata.description }}">
-  <meta name="theme-color" content="#e7e5e4"
+  <meta name="theme-color" content="#f5f5f4"
    media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#064e3b"
    media="(prefers-color-scheme: dark)">
@@ -21,10 +21,8 @@
   <link rel="alternate" type="application/atom+xml" href="/feed.xml" />
   <script src="/quoteback.js"></script>
 </head>
-
-<body class="flex flex-col bg-gradient-to-b from-stone-200 to-stone-100 dark:bg-gradient dark:from-emerald-900 dark:to-emerald-800 text-black dark:text-white">
-  <!-- main.njk -->
-  {{ content | safe }}
-</body>
-
+    <body class="bg-fixed bg-gradient-to-b from-stone-100 to-stone-50 dark:bg-gradient-to-b dark:from-emerald-900 dark:to-emerald-800 text-black dark:text-white">
+      <!-- main.njk -->
+      {{ content | safe }}
+    </body>
 </html>
