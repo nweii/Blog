@@ -17,6 +17,9 @@ module.exports = {
           'Druk Text Wide', 'sans-serif'
         ]
       },
+      screens: {
+        xs: '868px',
+      },
       typography: {
         DEFAULT: {
           css: {
