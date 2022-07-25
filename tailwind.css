@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @import url('https://rsms.me/inter/inter.css');
+  @font-face {
+    font-family: 'Druk Text Wide';
+    src: font-url('./assets/fonts/DrukTextWide-Medium.woff') format('woff');
+    font-display: swap;
+  }
+}
+
 p {
   @apply max-w-prose;
 }
@@ -27,7 +36,7 @@ p {
 }
 
 .post-inFeed {
-  @apply mb-12;
+  @apply mb-16;
 }
 
 .post-link {
