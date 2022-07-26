@@ -6,18 +6,22 @@ module.exports = {
   content: ['./src/**/*.md', './src/**/*.html', './src/_includes/**/*.njk'],
   theme: {
     screens: {
+      // widen medium breakpoint
       md: '868px',
     },
     extend: {
       fontFamily: {
+        // Add Inter to default sans stack after San Francisco and before other system fonts.
         'sans': [
           '-apple-system', 'BlinkMacSystemFont', 'Inter var','Inter','ui-sans-serif', 'system-ui',...defaultTheme.fontFamily.sans,
         ],
+        // Custom wide font with regular sans fonts as backup
         'wide': [
           'Druk Text Wide', 'Inter var', 'system-ui', 'sans-serif'
         ]
       },
       screens: {
+        // new small breakpoint so I can reduce margins on mobile in main.njk
         tb: '600px',
       },
       textShadow: {
@@ -28,10 +32,12 @@ module.exports = {
       typography: ({ theme }) => ({
         DEFAULT: {
           css: {
+            // Adjusted Tailwind default so that prose width only applies to <p> tags
             maxWidth: 'none',
             p: {
               maxWidth: '65ch',
             },
+            // Adjusted Tailwind default to un-bold quotes and make the line thinner
             blockquote: {
               fontWeight: '400',
               borderLeftWidth: '1px',

@@ -1,16 +1,8 @@
-# 11ty blog njk Starter
+# Blog
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c6f542b0-dce3-4631-8699-ada833a5f7ff/deploy-status)](https://app.netlify.com/sites/11ty-blog-njk-starter/deploys)
+My personal blog, forked from [this Eleventy starter template](https://github.com/httpsterio/11ty-blog-njk-starter). 
 
-View the live demo [here](https://11ty-blog-njk-starter.netlify.app), hosted on Netlify
-
-## Aims
-A blog that still runs without javascript. Hence, no bundlers.
-
-This is forked from [Rong Ying's starter](https://github.com/kohrongying/11ty-blog-starter) and converted to use Nunjucks instead of Liquid.
-
-
-## Features
+## Original template features
 - Static Site Gen - Eleventy
 
 - Tailwind CSS v2.0 / Tailwind Typography / Dark Mode
@@ -27,7 +19,7 @@ This is forked from [Rong Ying's starter](https://github.com/kohrongying/11ty-bl
   - `/tags/tag-name` - shows all posts related to that tag (`tagList.md`)
 
 + Sitemap and Robots.txt 
-  - Change site url in `_data/metadata.json`
+  - Change site url in `_data/site.json`
 
 + Shortcode to handle images
   - Add image under `src/assets/img/posts` and use the asset_img short code
@@ -47,32 +39,10 @@ $ ./create new blog post
 Created new post at src/posts/2021/01/new-blog-post.md
 ```
 
-
-## Running locally
-
-Create your blogpost under `src/posts`. I like to have mine sorted by YY/MM.
-
-Navigate to localhost:8080 after starting the server.
-```
-npm start
-```
-
-
-## Deployment
-[<img src="https://www.netlify.com/img/deploy/button.svg" />](
-https://app.netlify.com/start/deploy?repository=https://github.com/httpsterio/11ty-blog-njk-starter)
-
-
-
-On Netlify / Surge / Firebase hosting / etc hosting providers
-
-Build Command: `npm run build`
-
-Output folder: `_site`
-
-<!--
-## Future Improvemeents
-
-- [ ] Minification of assets
-- [ ] Make next/prev posts
--->
+## New features I added
+- Two-column layout on medium screen size breakpoints (and consolidated default.njk into main.njk)
+- Updated Tailwind
+- RSS feed
+- Automatic dark mode
+- [Quotebacks](https://github.com/Blogger-Peer-Review/quotebacks) integration with auto dark mode
+- Prose width optimized for readability (max width is 65 characters) while images go to full width
