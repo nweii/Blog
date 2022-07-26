@@ -18,7 +18,7 @@ module.exports = {
         ]
       },
       screens: {
-        xs: '868px',
+        tb: '600px',
       },
       textShadow: {
         sm: '0 1px 2px var(--tw-shadow-color)',

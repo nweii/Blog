@@ -1,16 +1,16 @@
 ---
 layout: base
 ---
-<div class="mx-auto md:max-w-7xl px-4 w-screen px-4">
-  <div class="flex mt-9">
+<div class="mx-auto md:max-w-7xl mt-5 tb:mt-8 w-screen px-1 tb:px-4">
+  <div class="flex">
     <!-- Content area with two columns -->
-    <div class="flex flex-col w-100 gap-8 md:gap-4 md:flex-row px-2 relative">
+    <div class="flex flex-col w-100 gap-8 md:gap-4 md:flex-row px-1 relative">
       <!-- Sidebar -->
-      <div class="md:float-left px-2 md:basis-56">
+      <div class="md:float-left md:basis-56">
         {% include "nav.njk" %}
       </div>
       <!-- Page area -->
-      <main class="float-left w-full md:w-[70%] md:max-w-screen-md px-2 flex-grow">
+      <main class="float-left w-full md:w-[70%] md:max-w-screen-md px-2 flex-grow min-h-[99vw]">
         {{ content | safe }}
       </main>
     </div>
