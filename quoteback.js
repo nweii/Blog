@@ -161,9 +161,10 @@ var quoteStyle  = `
   display: flex;
   flex-shrink: 1;
   align-items: center;
-  width: 81px;
+  justify-content: center;
+  width: 24px;
   text-overflow: wrap;
-  min-width: 81px !important;
+  // min-width: 81px !important;
   padding: 0px 15px !important;
   border-left: 1px solid var(--border-color-normal)
 }
@@ -171,7 +172,7 @@ var quoteStyle  = `
 .quoteback-container .quoteback-head .quoteback-backlink .quoteback-arrow {
   border: none !important;
   font-family: inherit !important;
-  font-size: 14px !important;
+  font-size: 18px !important;
   color: var(--gototext-color) !important;
   text-decoration: none !important;
   -webkit-transition: opacity 0.1s ease;
@@ -295,7 +296,7 @@ document.addEventListener("DOMContentLoaded", function(){
               <div aria-label="" class="quoteback-title"></div>
             </div>
           </div>
-          <div class="quoteback-backlink"><a target="_blank" aria-label="go to the full text of this quotation" rel="noopener" href="" class="quoteback-arrow">Go to text <span class="right-arrow">&#8594;</span></a></div>
+          <div class="quoteback-backlink"><a target="_blank" aria-label="go to the full text of this quotation" rel="noopener" href="" class="quoteback-arrow"><span class="right-arrow">&#8594;</span></a></div>
         </div>
       </div>`;
 
