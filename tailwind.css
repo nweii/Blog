@@ -12,6 +12,7 @@ html {
   @font-face {
     font-family: 'Druk Text Wide';
     src: url('../fonts/DrukTextWide-Medium.woff') format('woff');
+    font-weight: 700;
     font-display: swap;
   }
 }
@@ -20,20 +21,24 @@ p {
   @apply max-w-prose;
 }
 
+.title-wide {
+  @apply text-xl font-wide text-stone-400 dark:text-stone-50/[.65] leading-tight mb-4;
+}
+
+.post-title {
+  @apply font-wide text-xl text-stone-500 dark:text-stone-50/[.80] pb-2; 
+}
+
 .paginator-text {
   @apply text-stone-500 dark:text-stone-50/[.80] py-2 px-4;
 }
 
 .post-tag {
-  @apply inline-block italic rounded-full hover:underline text-stone-500 dark:text-stone-50/[.80];
+  @apply text-sm inline-block py-0 px-2 rounded-md border border-stone-300 dark:border-stone-50/25 hover:shadow-md hover:bg-white dark:hover:bg-stone-800 text-stone-500 dark:text-stone-50/[.70] hover:text-stone-900 dark:hover:text-stone-50 transition;
 }
 
 .date {
   @apply text-sm text-stone-500 dark:text-stone-50/[.80];
-}
-
-.post-title {
-  @apply text-xl text-stone-500 dark:text-stone-50/[.80] font-bold pb-2 leading-tight; 
 }
 
 .post-content {

@@ -3,11 +3,15 @@ layout: main
 title: Tags
 ---
 
+<p class="title-wide mb-6">
+    Tags
+</p>
+
 {% for tag in collections.tagList %}
 
 <span>
     <a href="/tags/{{ tag }}">
-        <button class="bg-white text-base hover:bg-gray-100 text-stone-800 font-semibold py-1 px-3 border border-stone-400 rounded-full shadow mr-6 mb-4">
+        <button class="text-base inline-block py-1 px-3 rounded-xl text-stone-600 dark:text-stone-50/[.80] border border-stone-300 dark:border-stone-50/25 hover:shadow-md hover:bg-white dark:hover:bg-stone-900 hover:text-stone-900 dark:hover:text-stone-50 transition mr-6">
             {{ tag }}
         </button>
     </a>

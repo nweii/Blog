@@ -9,7 +9,7 @@ eleventyComputed:
   title: "{{ tag }}"
 ---  
 
-<p class="text-2xl font-bold text-stone-400 mb-6">
+<p class="title-wide mb-6">
   Posts tagged <em>{{ tag }}</em>
 </p>
 <!-- Enclose post list with div -->
