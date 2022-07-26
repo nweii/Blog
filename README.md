@@ -2,6 +2,14 @@
 
 My personal blog, forked from [this Eleventy starter template](https://github.com/httpsterio/11ty-blog-njk-starter). 
 
+## New features I added
+- Redesigned with two-column layout on medium+ screen sizes (and consolidated default.njk into main.njk), new tag appearance, and more.
+- Updated Tailwind
+- RSS feed
+- Automatic dark mode
+- [Quotebacks](https://github.com/Blogger-Peer-Review/quotebacks) integration with auto dark mode
+- Prose width optimized for readability (max width is 65 characters) while images go to full width
+
 ## Original template features
 - Static Site Gen - Eleventy
 
@@ -38,11 +46,3 @@ My personal blog, forked from [this Eleventy starter template](https://github.co
 $ ./create new blog post
 Created new post at src/posts/2021/01/new-blog-post.md
 ```
-
-## New features I added
-- Two-column layout on medium screen size breakpoints (and consolidated default.njk into main.njk)
-- Updated Tailwind
-- RSS feed
-- Automatic dark mode
-- [Quotebacks](https://github.com/Blogger-Peer-Review/quotebacks) integration with auto dark mode
-- Prose width optimized for readability (max width is 65 characters) while images go to full width
