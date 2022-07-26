@@ -15,20 +15,20 @@ pagination:
   <p class="post-title link-hover">
     <a href="{{ post.url }}">{{ post.data.title }}</a>
   </p>
-  <!-- subheading -->
-  <!-- <span class="text-base sm:text-2xl font-normal"> &middot; {{ post.content | safe | readTime }} min read</span> -->
-  <p class="date">
-    {{ post.data.date | postDate }} • 
-    <!-- POST TAG(S) -->
-    {% for tag in post.data.tags %}
-    {% if tag != "posts" %}
-    <a href="/tags/{{ tag }}" class="">
-      <span class="italic hover:underline">{{ tag }}</span>
-    </a>
-    {% endif %}
-    {% endfor %}
-  </p>
-  <!-- <p class="mt-4">{{ post.data.post_excerpt }}...</p> -->
+  <div id="postInfo">
+    <span class="date">
+      {{ post.data.date | postDate }} • 
+    </span>
+    <span id="postTags">
+      {% for tag in post.data.tags %}
+      {% if tag != "posts" %}
+      <a href="/tags/{{ tag }}" class="post-tag">
+        {{ tag }}
+      </a>
+      {% endif %}
+      {% endfor %}
+    </span>
+  </div>
 </div>
 {% endif %}
 {% endfor %}

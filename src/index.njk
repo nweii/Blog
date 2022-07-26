@@ -28,6 +28,9 @@ pagination:
     </article>
     <!-- POST FOOTER -->
     <div id="postFooter" class="flex flex-col mt-4 mb-8 gap-4">
+      <a href="{{ post.url }}" class="text-sm text-stone-500 dark:text-stone-50/[.80] font-normal mt-4">
+          Link to this post
+      </a>
       <div id="postTags">
         {% for tag in post.data.tags %}
         {% if tag != "posts" %}

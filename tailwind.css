@@ -44,7 +44,7 @@ html {
   }
   
   .date {
-    @apply text-sm text-stone-500 dark:text-stone-50/[.80];
+    @apply text-sm text-stone-500 dark:text-stone-50/[.7];
   }
   
   .post-content {
