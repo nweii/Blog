@@ -26,9 +26,9 @@ pagination:
     <article class="post-content">
       {{ post.templateContent | safe }}
     </article>
-    <!-- POST TAG(S) -->
-    <div class="flex mt-4 mb-8">
-      <div>
+    <!-- POST FOOTER -->
+    <div id="postFooter" class="flex flex-col mt-4 mb-8 gap-4">
+      <div id="postTags">
         {% for tag in post.data.tags %}
         {% if tag != "posts" %}
         <a href="/tags/{{ tag }}" class="">

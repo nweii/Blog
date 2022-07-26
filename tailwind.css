@@ -15,38 +15,41 @@ html {
     font-weight: 700;
     font-display: swap;
   };
+  p {
+    @apply max-w-prose;
+  }
+  a {
+    @apply link-hover;
+  }
 }
 
-p {
-  @apply max-w-prose;
-}
-
-.title-wide {
-  @apply text-xl font-wide text-stone-900/[.48] dark:text-stone-50/[.55] leading-tight mb-4;
-}
-
-.post-title {
-  @apply font-wide text-xl text-stone-500 dark:text-stone-50/75 pb-2; 
-}
-
-.link-hover {
-  @apply hover:text-emerald-500 dark:hover:text-emerald-300 hover:-translate-y-[0.08rem] transition ease-in-out;
-}
-
-.paginator-text {
-  @apply text-stone-500 dark:text-stone-50/[.80] py-2 px-4;
-}
-
-.post-tag {
-  @apply text-sm inline-block py-0 px-2 mr-1 rounded-md border border-stone-300 dark:border-stone-50/25 hover:shadow-md hover:bg-white dark:hover:bg-stone-800 text-stone-500 dark:text-stone-50/[.70] hover:-translate-y-[0.08rem] hover:text-stone-900 dark:hover:text-stone-50 transition ease-in-out;
-}
-
-.date {
-  @apply text-sm text-stone-500 dark:text-stone-50/[.80];
-}
-
-.post-content {
-  @apply leading-relaxed prose prose-stone dark:prose-invert prose-img:rounded-md prose-img:shadow prose-ul:list-outside;
+@layer components {
+  .link-hover {
+    @apply hover:text-emerald-500 dark:hover:text-emerald-300 hover:-translate-y-[0.08rem] transition ease-in-out;
+  }
+  .title-wide {
+    @apply text-xl font-wide text-stone-900/[.48] dark:text-stone-50/[.55] leading-tight mb-4;
+  }
+  
+  .post-title {
+    @apply font-wide text-xl text-stone-500 dark:text-stone-50/75 pb-2; 
+  }
+  
+  .paginator-text {
+    @apply text-stone-500 dark:text-stone-50/[.80] py-2 px-4;
+  }
+  
+  .post-tag {
+    @apply text-sm inline-block py-0 px-2 mr-1 rounded-md border border-stone-300 dark:border-stone-50/25 hover:shadow-md hover:bg-white dark:hover:bg-stone-800 text-stone-500 dark:text-stone-50/[.70] hover:-translate-y-[0.08rem] hover:text-stone-900 dark:hover:text-stone-50 transition ease-in-out;
+  }
+  
+  .date {
+    @apply text-sm text-stone-500 dark:text-stone-50/[.80];
+  }
+  
+  .post-content {
+    @apply leading-relaxed prose prose-stone prose-a:link-hover dark:prose-invert prose-img:rounded-md prose-img:shadow prose-ul:list-outside;
+  }
 }
 
 .post-inFeed {
