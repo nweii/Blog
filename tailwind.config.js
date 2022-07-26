@@ -22,7 +22,7 @@ module.exports = {
       },
       screens: {
         // new small breakpoint so I can reduce margins on mobile in main.njk
-        tb: '600px',
+        ntiny: '416px',
       },
       textShadow: {
         sm: '0 1px 2px var(--tw-shadow-color)',
