@@ -4,11 +4,13 @@ const markdownItAnchor = require('markdown-it-anchor')
 const markdownItBlock = require('markdown-it-block-image')
 const pluginRss = require("@11ty/eleventy-plugin-rss")
 const { DateTime } = require("luxon")
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 module.exports = function(eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(syntaxHighlight)
   eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(UpgradeHelper);
   
   // To enable merging of tags
   eleventyConfig.setDataDeepMerge(true)
