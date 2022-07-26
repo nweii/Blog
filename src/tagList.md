@@ -17,7 +17,7 @@ eleventyComputed:
 {% for post in collections[tag] %}
 <div class="space-y-2 mb-5">
     <p class="date">{{ post.date | postDate }}</p>
-    <p class="text-wide post-title hover:text-blue-700 hover:underline">
+    <p class="text-wide post-title link-hover">
       <a href="{{ post.url }}">{{ post.data.title }}</a>
     </p>
 </div>
