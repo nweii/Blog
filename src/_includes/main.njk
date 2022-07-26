@@ -2,18 +2,18 @@
 layout: base
 ---
 <div class="mx-auto md:max-w-7xl px-4 w-screen px-4">
-  <div class="flex min-h-screen mt-9">
+  <div class="flex mt-9">
     <!-- Content area with two columns -->
-    <div class="flex flex-col gap-8 md:gap-4 md:flex-row px-2 relative">
-    <!-- Sidebar -->
-    <div class="md:float-left px-2 w-100 md:basis-56">
-      {% include "nav.njk" %}
+    <div class="flex flex-col w-100 gap-8 md:gap-4 md:flex-row px-2 relative">
+      <!-- Sidebar -->
+      <div class="md:float-left px-2 md:basis-56">
+        {% include "nav.njk" %}
+      </div>
+      <!-- Page area -->
+      <main class="float-left w-full md:w-[70%] md:max-w-screen-md px-2 flex-grow">
+        {{ content | safe }}
+      </main>
     </div>
-    <!-- Page area -->
-    <main class="float-left w-full md:w-[70%] md:max-w-screen-md px-2 flex-grow">
-      {{ content | safe }}
-    </main>
-  </div>
   </div>
   <!-- Footer -->
   {% include "footer.njk" %}
