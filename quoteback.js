@@ -127,7 +127,9 @@ var quoteStyle  = `
   font-size: 14px;
   line-height: 1.2;
   width: 100%;
-  max-width: 525px
+  max-width: 525px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 414px) {
@@ -137,7 +139,8 @@ var quoteStyle  = `
 }
 
 .quoteback-container .quoteback-head .metadata-inner .quoteback-title {
-  white-space: nowrap;
+  white-space: wrap;
+  line-height: 1.5;
   overflow: hidden;
   text-overflow: ellipsis;
   font-weight: 600;
@@ -159,6 +162,7 @@ var quoteStyle  = `
   flex-shrink: 1;
   align-items: center;
   width: 81px;
+  text-overflow: wrap;
   min-width: 81px !important;
   padding: 0px 15px !important;
   border-left: 1px solid var(--border-color-normal)
