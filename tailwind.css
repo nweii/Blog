@@ -30,7 +30,7 @@ p {
 }
 
 .link-hover {
-  @apply hover:text-emerald-500 dark:hover:text-emerald-300 hover:-translate-y-[0.08rem] hover:text-shadow-lg transition ease-in-out;
+  @apply hover:text-emerald-500 dark:hover:text-emerald-300 hover:-translate-y-[0.08rem] transition ease-in-out;
 }
 
 .paginator-text {
