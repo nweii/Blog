@@ -4,7 +4,7 @@ pagination:
   data: collections
   size: 1
   alias: tag
-permalink: /tags/"/{{ tag | slugify }}/"/
+permalink: /tags/{{ tag | slugify }}/
 eleventyComputed:
   title: "{{ tag }}"
 ---  
