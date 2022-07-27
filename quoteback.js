@@ -7,24 +7,13 @@ var quoteStyle  = `
   --author-color: var(--strong);
   --title-color: var(--faded);
   --gototext-color: var(--faded);
-  --content-color: var(--faded);
+  --content-color: var(--strong);
   --internal-blockquote-color: #5C6D73;
   --shadow-none: 0 0 #0000;
   --shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
 }
-
-/* .quoteback-container.dark-theme {
-  --background-color: #fafaf9;
-  --border-color-normal: #e7e5e4;
-  --border-color-hover: #d6d3d1;
-  --author-color: #292524;
-  --title-color: #57534e;
-  --gototext-color: #a8a29e;
-  --content-color: var(--faded-dark);
-  --internal-blockquote-color: #5C6D73
-} */
 
 @media (prefers-color-scheme: dark) {
   .quoteback-container {
@@ -34,7 +23,7 @@ var quoteStyle  = `
     --author-color: var(--strong-dark);
     --title-color: var(--faded-dark);
     --gototext-color: var(--faded-dark);
-    --content-color: var(--faded-dark);
+    --content-color: var(--strong-dark);
     --internal-blockquote-color: #5C6D73;
     --shadow: 0 1px 2px 0 rgb(0 0 0 / 0.2);
     --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.15), 0 4px 6px -4px rgb(0 0 0 / 0.15);
@@ -48,7 +37,7 @@ var quoteStyle  = `
   border: 1px solid var(--border-color-normal);
   border-radius: 8px;
   margin-bottom: 25px;
-  max-width: 65ch;
+  max-width: 60ch;
   background-color: var(--background-color);
   box-shadow: var(--shadow);
   -webkit-transition: all 0.2s ease;
@@ -73,11 +62,11 @@ var quoteStyle  = `
 
 .quoteback-container .quoteback-parent .quoteback-content {
   font-family: var(--system-fonts);
-  font-size: 16px;
+  font-size: var(--text-sm);
   font-weight: 400;
   padding: 15px;
   color: var(--content-color);
-  line-height: round(24 / 14);
+  line-height: 1.5rem;
 }
 
 .quoteback-container .quoteback-head {
@@ -124,7 +113,7 @@ var quoteStyle  = `
 }
 
 .quoteback-container .quoteback-head .metadata-inner {
-  font-size: 14px;
+  font-size: var(--text-sm);
   line-height: 1.2;
   width: 100%;
   max-width: 525px;
@@ -149,7 +138,7 @@ var quoteStyle  = `
 }
 
 .quoteback-container .quoteback-head .metadata-inner .quoteback-author {
-  font-size: 14px;
+  font-size: var(--text-sm);
   line-height: 1.2;
   color: var(--author-color);
   font-weight: 600;
@@ -172,7 +161,7 @@ var quoteStyle  = `
 .quoteback-container .quoteback-head .quoteback-backlink .quoteback-arrow {
   border: none !important;
   font-family: inherit !important;
-  font-size: 18px !important;
+  font-size: var(--text-lg) !important;
   color: var(--gototext-color) !important;
   text-decoration: none !important;
   -webkit-transition: opacity 0.1s ease;
