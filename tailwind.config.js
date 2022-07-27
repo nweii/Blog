@@ -49,6 +49,7 @@ module.exports = {
             '--tw-prose-body': theme('colors.stone.800'),
             '--tw-prose-hr': theme('colors.stone.300'),
             '--tw-prose-quotes': theme('colors.stone.600'),
+            '--tw-prose-quote-borders': theme('colors.stone.300'),
             '--tw-prose-th-borders': theme('colors.stone.300'),
             '--tw-prose-invert-body': theme('colors.stone.50 / 98%'),
             '--tw-prose-invert-links': theme('colors.stone.50 / 98%'),
