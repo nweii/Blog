@@ -9,6 +9,9 @@ html {
 :root {
   /* Make tailwind styles available to quotebacks stylesheet */
   --system-fonts: theme(fontFamily.sans);
+  --text-sm: theme(fontSize.sm);
+  --text-base: theme(fontSize.base);
+  --text-lg: theme(fontSize.lg);
   --qb-bg-dark: theme(colors.stone.900 / 70%);
   --strong: theme(colors.stone.900);
   --strong-dark: theme(colors.stone.50 / 98%);
