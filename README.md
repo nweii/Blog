@@ -52,3 +52,4 @@ Created new post at src/posts/2021/01/new-blog-post.md
 - Tom Critchlow's ["Provocations for Blogging"](https://tomcritchlow.com/2022/05/20/streaks/)
 - Daring Fireball & Pixel Envy for blog inspo, along with 
 - [Donovan Maidens' template](https://github.com/djm56/eleventy-tailwind-cloudflare) for demonstrating how to configure a navigation active state in 11ty.
+- Mark Llobrera's blog post about [customizing the Markdown footnotes plugin](https://www.markllobrera.com/posts/eleventy-markdown-and-footnotes/).
