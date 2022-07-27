@@ -67,6 +67,18 @@ html {
   }
 }
 
+.post-content > .footnote-ref {
+  text-decoration: none !important;
+}
+
+.footnote-ref > a {
+  @apply underline-offset-2 text-stone-500 dark:text-stone-50/75;
+}
+
+.footnote-backref {
+  @apply text-stone-400 dark:text-stone-50/50;
+}
+
 .post-inFeed {
   @apply mb-16;
 }

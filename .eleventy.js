@@ -1,9 +1,10 @@
-const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
-const markdownIt = require('markdown-it')
-const markdownItAnchor = require('markdown-it-anchor')
-const markdownItBlock = require('markdown-it-block-image')
-const pluginRss = require("@11ty/eleventy-plugin-rss")
-const { DateTime } = require("luxon")
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+const markdownIt = require('markdown-it');
+const markdownItAnchor = require('markdown-it-anchor');
+const markdownItBlock = require('markdown-it-block-image');
+const markdownItFootnote = require("markdown-it-footnote");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
+const { DateTime } = require("luxon");
 const slugify = require("slugify");
 
 module.exports = function(eleventyConfig) {
@@ -70,6 +71,34 @@ module.exports = function(eleventyConfig) {
     })
   })
   md.use(markdownItBlock)
+  md.use(markdownItFootnote)
+  // remove brackets from footnote
+  md.renderer.rules.footnote_caption = (tokens, idx) => {
+    let n = Number(tokens[idx].meta.id + 1).toString();
+    if (tokens[idx].meta.subId > 0) {
+      n += ":" + tokens[idx].meta.subId;
+    }
+    return n;
+  };
+  
+  // add target="_blank" to all links aka open all links in new window
+  // Remember old renderer, if overridden, or proxy to default renderer
+  var defaultRender = md.renderer.rules.link_open || function(tokens, idx, options, env, self) {
+    return self.renderToken(tokens, idx, options);
+  };
+  md.renderer.rules.link_open = function (tokens, idx, options, env, self) {
+    // If you are sure other plugins can't add `target` - drop check below
+    var aIndex = tokens[idx].attrIndex('target');
+  
+    if (aIndex < 0) {
+      tokens[idx].attrPush(['target', '_blank']); // add new attribute
+    } else {
+      tokens[idx].attrs[aIndex][1] = '_blank';    // replace value of existing attr
+    }
+  
+    // pass token to default renderer.
+    return defaultRender(tokens, idx, options, env, self);
+  };
   eleventyConfig.setLibrary('md', md)
 
   // creates a shortcode that allows inserting images with alt-texts. Usage {% asset_img 'imagename','alt-text' %}
