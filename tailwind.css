@@ -6,6 +6,16 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+:root {
+  /* Make tailwind styles available to quotebacks stylesheet */
+  --system-fonts: theme(fontFamily.sans);
+  --qb-bg-dark: theme(colors.stone.900 / 70%);
+  --strong: theme(colors.stone.900);
+  --strong-dark: theme(colors.stone.50 / 98%);
+  --faded: theme(colors.stone.500);
+  --faded-dark: theme(colors.stone.50/70%);
+}
+
 @layer base {
   @import url('https://rsms.me/inter/inter.css');
   @import url('../fonts/DrukTextWide-Medium.woff');
@@ -14,7 +24,7 @@ html {
     src: url('../fonts/DrukTextWide-Medium.woff') format('woff');
     font-weight: 700;
     font-display: swap;
-  };
+  }
   p {
     @apply max-w-prose;
   }
@@ -27,6 +37,11 @@ html {
   .link-hover {
     @apply hover:text-emerald-500 dark:hover:text-emerald-300 hover:-translate-y-[0.08rem] transition ease-in-out;
   }
+  
+  .link-container-hover {
+    @apply hover:-translate-y-[0.08rem] hover:shadow-md hover:bg-emerald-500 dark:hover:bg-emerald-300 hover:text-white dark:hover:text-black transition ease-in-out;
+  }
+  
   .title-wide {
     @apply text-xl font-wide text-stone-900/[.48] dark:text-stone-50/[.55] leading-tight mb-4;
   }
@@ -40,7 +55,7 @@ html {
   }
   
   .post-tag {
-    @apply text-sm inline-block py-0 px-2 mr-1 rounded-md border border-stone-300 dark:border-stone-50/25 hover:shadow-md hover:bg-white dark:hover:bg-stone-800 text-stone-500 dark:text-stone-50/[.70] hover:-translate-y-[0.08rem] hover:text-stone-900 dark:hover:text-stone-50 transition ease-in-out;
+    @apply text-sm inline-block py-0 px-2 mr-1 rounded-md border border-stone-300 dark:border-stone-50/25 text-stone-500 dark:text-stone-50/[.70] link-container-hover;
   }
   
   .date {
@@ -48,7 +63,7 @@ html {
   }
   
   .post-content {
-    @apply leading-relaxed prose prose-stone prose-a:link-hover dark:prose-invert prose-img:rounded-md prose-img:shadow prose-ul:list-outside;
+    @apply leading-relaxed prose prose-stone prose-a:link-hover prose-a:underline-offset-2 dark:prose-invert prose-img:rounded-md prose-img:shadow prose-ul:list-outside;
   }
 }
 

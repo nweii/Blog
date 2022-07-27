@@ -4,10 +4,10 @@ var quoteStyle  = `
   --background-color: white;
   --border-color-normal: #e7e5e4;
   --border-color-hover: #d6d3d1;
-  --author-color: #1c1917;
-  --title-color: #57534e;
-  --gototext-color: #78716c;
-  --content-color: #57534e;
+  --author-color: var(--strong);
+  --title-color: var(--faded);
+  --gototext-color: var(--faded);
+  --content-color: var(--faded);
   --internal-blockquote-color: #5C6D73;
   --shadow-none: 0 0 #0000;
   --shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
@@ -22,19 +22,19 @@ var quoteStyle  = `
   --author-color: #292524;
   --title-color: #57534e;
   --gototext-color: #a8a29e;
-  --content-color: #57534e;
+  --content-color: var(--faded-dark);
   --internal-blockquote-color: #5C6D73
 } */
 
 @media (prefers-color-scheme: dark) {
   .quoteback-container {
-    --background-color: rgba(28,25,23,0.7);
+    --background-color: var(--qb-bg-dark);
     --border-color-normal: hsla(60,9%,98%,0.2);
     --border-color-hover: hsla(60,9%,98%,0.2);
-    --author-color: hsla(60,9%,98%,0.98);
-    --title-color: hsla(60,9%,98%,0.8);
-    --gototext-color: hsla(60,9%,98%,0.7);
-    --content-color: hsla(60,9%,98%,0.8);
+    --author-color: var(--strong-dark);
+    --title-color: var(--faded-dark);
+    --gototext-color: var(--faded-dark);
+    --content-color: var(--faded-dark);
     --internal-blockquote-color: #5C6D73;
     --shadow: 0 1px 2px 0 rgb(0 0 0 / 0.2);
     --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.15), 0 4px 6px -4px rgb(0 0 0 / 0.15);
@@ -43,7 +43,7 @@ var quoteStyle  = `
 } 
 
 .quoteback-container {
-  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: var(--system-fonts);
   text-rendering: optimizeLegibility;
   border: 1px solid var(--border-color-normal);
   border-radius: 8px;
@@ -72,12 +72,12 @@ var quoteStyle  = `
 }
 
 .quoteback-container .quoteback-parent .quoteback-content {
-  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: var(--system-fonts);
   font-size: 16px;
   font-weight: 400;
   padding: 15px;
   color: var(--content-color);
-  line-height: 150%
+  line-height: round(24 / 14);
 }
 
 .quoteback-container .quoteback-head {
