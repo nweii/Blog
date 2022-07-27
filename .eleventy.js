@@ -1,6 +1,7 @@
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
+const markdownItAttrs = require('markdown-it-attrs');
 const markdownItBlock = require('markdown-it-block-image');
 const markdownItFootnote = require("markdown-it-footnote");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
@@ -69,7 +70,8 @@ module.exports = function(eleventyConfig) {
       safariReaderFix: true,
       class: 'header-anchor',
     })
-  })
+  });
+  md.use(markdownItAttrs);
   md.use(markdownItBlock)
   md.use(markdownItFootnote)
   // remove brackets from footnote
