@@ -9,8 +9,9 @@ My personal blog, forked from [this Eleventy starter template](https://github.co
 - SVG favicon
 - RSS feed
 - Prose width optimized for readability (max width is 65 characters) while images go to full width
-- [Quotebacks](https://github.com/Blogger-Peer-Review/quotebacks) integration with auto dark mode
-- Footnotes in markdown posts
+- Built-in [Quotebacks](https://github.com/Blogger-Peer-Review/quotebacks) + integration with auto dark mode
+- Footnotes in Markdown posts
+- [Markdown attributes plugin](https://www.npmjs.com/package/markdown-it-attrs)
 
 ## Original template features
 - Static Site Gen - Eleventy
