@@ -17,7 +17,7 @@ layout: main
   <a href="{{ post.url }}" class="text-sm text-stone-500 dark:text-stone-50/[.80] font-normal mt-4 underline-offset-2">
     <u>Link to this post</u>
   </a>
-  {% if post.tags %}
+  {% if post.tags != "" %}
   <div id="postTags" class="mt-4 text-sm text-stone-500 dark:text-stone-50/[.8]">
     <em>More posts tagged:</em>
     <div class="mt-2">

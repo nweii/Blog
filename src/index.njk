@@ -31,6 +31,7 @@ pagination:
       <a href="{{ post.url }}" class="text-sm text-stone-500 dark:text-stone-50/[.80] font-normal mt-4 underline-offset-2">
         <u>Link to this post</u>
       </a>
+      {% if post.tags != "" %}
       <div id="postTags">
         {% for tag in post.data.tags %}
         {% if tag != "posts" %}
@@ -40,6 +41,8 @@ pagination:
         {% endif %}
         {% endfor %}
       </div>
+      {% endif %}
+      {% endfor %}
     </div>
   </div>
   {% endif %}
