@@ -17,9 +17,9 @@ pagination:
   </p>
   <div id="postInfo">
     <span class="date">
-      {{ post.data.date | postDate }} • 
+      {{ post.data.date | postDate }}
     </span>
-    <span id="postTags">
+    <span id="postTags" style="margin-left:0.5rem; margin-bottom:0.5rem">
       {% for tag in post.data.tags %}
       {% if tag != "posts" %}
       <a href="/tags/{{ tag }}" class="post-tag">
