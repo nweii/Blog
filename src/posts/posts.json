@@ -1,5 +1,6 @@
 {
     "layout": "post.njk",
     "tags": ["posts"],
-    "published": true
+    "published": true,
+    "permalink": "/{{ page.date | date: '%Y/%m' }}/{{title | slugify}}/index.html"
 }
