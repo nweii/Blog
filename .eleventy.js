@@ -4,13 +4,12 @@ const markdownItAnchor = require('markdown-it-anchor')
 const markdownItBlock = require('markdown-it-block-image')
 const pluginRss = require("@11ty/eleventy-plugin-rss")
 const { DateTime } = require("luxon")
-const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
+const slugify = require("slugify");
 
 module.exports = function(eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(syntaxHighlight)
   eleventyConfig.addPlugin(pluginRss);
-  eleventyConfig.addPlugin(UpgradeHelper);
   
   // To enable merging of tags
   eleventyConfig.setDataDeepMerge(true)
@@ -27,6 +26,15 @@ module.exports = function(eleventyConfig) {
     excerpt_separator: '<!-- excerpt -->'
   })
 
+  // To remove special characters for better links
+  eleventyConfig.addFilter("slugify", function (str) {
+    return slugify(str, {
+      lower: true,
+      replacement: "-",
+      remove: /[*+~.·,()'"`´%!?¿:@]/g
+    });
+  });
+  
   // To create a filter to determine duration of post
   eleventyConfig.addFilter('readTime', (value) => {
     const content = value
