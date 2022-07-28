@@ -7,6 +7,7 @@ var quoteStyle  = `
   --author-color: var(--strong);
   --title-color: var(--faded);
   --gototext-color: var(--faded);
+  --gototext-color-hover: var(--link);
   --content-color: var(--strong);
   --internal-blockquote-color: #5C6D73;
   --shadow-none: 0 0 #0000;
@@ -23,6 +24,7 @@ var quoteStyle  = `
     --author-color: var(--strong-dark);
     --title-color: var(--faded-dark);
     --gototext-color: var(--faded-dark);
+    --gototext-color-hover: var(--link-dark);
     --content-color: var(--strong-dark);
     --internal-blockquote-color: #5C6D73;
     --shadow: 0 1px 2px 0 rgb(0 0 0 / 0.2);
@@ -37,7 +39,7 @@ var quoteStyle  = `
   border: 1px solid var(--border-color-normal);
   border-radius: 8px;
   margin-bottom: 25px;
-  max-width: 60ch;
+  max-width: 53ch;
   background-color: var(--background-color);
   box-shadow: var(--shadow);
   -webkit-transition: all 0.2s ease;
@@ -117,8 +119,8 @@ var quoteStyle  = `
   line-height: 1.2;
   width: 100%;
   max-width: 525px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 @media (max-width: 414px) {
@@ -133,7 +135,7 @@ var quoteStyle  = `
   overflow: hidden;
   text-overflow: ellipsis;
   font-weight: 600;
-  padding-right: 20px;
+  padding-right: 16px;
   color: var(--title-color)
 }
 
@@ -151,7 +153,7 @@ var quoteStyle  = `
   flex-shrink: 1;
   align-items: center;
   justify-content: center;
-  width: 24px;
+  width: 18px;
   text-overflow: wrap;
   // min-width: 81px !important;
   padding: 0px 15px !important;
@@ -168,11 +170,12 @@ var quoteStyle  = `
   -moz-transition: opacity 0.1s ease;
   -ms-transition: opacity 0.1s ease;
   -o-transition: opacity 0.1s ease;
-  transition: opacity 0.1s ease
 }
 
 .quoteback-container .quoteback-head .quoteback-backlink .quoteback-arrow:hover {
-  opacity: .5 !important
+  color: var(--gototext-color-hover) !important;
+  --tw-translate-y: -0.08rem !important;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
 }
 
 .quoteback-container .quoteback-head .quoteback-backlink .quoteback-arrow:visited {

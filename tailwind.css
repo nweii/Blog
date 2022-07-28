@@ -17,6 +17,8 @@ html {
   --strong-dark: theme(colors.stone.50 / 98%);
   --faded: theme(colors.stone.500);
   --faded-dark: theme(colors.stone.50/70%);
+  --link: theme(colors.emerald.500);
+  --link-dark: theme(colors.emerald.300);
 }
 
 @layer base {
