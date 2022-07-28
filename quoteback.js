@@ -8,7 +8,9 @@ var quoteStyle  = `
   --title-color: var(--faded);
   --gototext-color: var(--faded);
   --gototext-color-hover: var(--link);
-  --content-color: var(--strong);
+  --content-color: var(--faded);
+  --content-size: var(--text-base);
+  --content-lh: 1.625;
   --internal-blockquote-color: #5C6D73;
   --shadow-none: 0 0 #0000;
   --shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
@@ -25,7 +27,7 @@ var quoteStyle  = `
     --title-color: var(--faded-dark);
     --gototext-color: var(--faded-dark);
     --gototext-color-hover: var(--link-dark);
-    --content-color: var(--strong-dark);
+    --content-color: var(--faded-dark);
     --internal-blockquote-color: #5C6D73;
     --shadow: 0 1px 2px 0 rgb(0 0 0 / 0.2);
     --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.15), 0 4px 6px -4px rgb(0 0 0 / 0.15);
@@ -39,7 +41,7 @@ var quoteStyle  = `
   border: 1px solid var(--border-color-normal);
   border-radius: 8px;
   margin-bottom: 25px;
-  max-width: 53ch;
+  max-width: 58ch;
   background-color: var(--background-color);
   box-shadow: var(--shadow);
   -webkit-transition: all 0.2s ease;
@@ -64,11 +66,11 @@ var quoteStyle  = `
 
 .quoteback-container .quoteback-parent .quoteback-content {
   font-family: var(--system-fonts);
-  font-size: var(--text-sm);
+  font-size: var(--content-size);
   font-weight: 400;
   padding: 15px;
   color: var(--content-color);
-  line-height: 1.5rem;
+  line-height: var(--content-lh);
 }
 
 .quoteback-container .quoteback-head {
