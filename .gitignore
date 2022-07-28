@@ -1,6 +1,6 @@
 _site
 node_modules
-.nova
 .DS_Store
 src/.DS_Store
+.nova
 .vscode
