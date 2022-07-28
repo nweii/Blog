@@ -41,7 +41,7 @@ Created new post at src/posts/2021/01/new-blog-post.md
 ```
 
 ## Credits
-- Mark Thomas Miller's blog post [comparing popular static site generators]((https://mtm.dev/static), which helped me decide on Eleventy over Next.js. Also, his blog post explaining [how Eleventy works](https://mtm.dev/eleventy).
+- Mark Thomas Miller's blog post [comparing popular static site generators](https://mtm.dev/static), which helped me decide on Eleventy over Next.js. Also, his blog post explaining [how Eleventy works](https://mtm.dev/eleventy).
 - Tom Critchlow's ["Provocations for Blogging"](https://tomcritchlow.com/2022/05/20/streaks/)
 - Daring Fireball & Pixel Envy for blog inspo, along with 
 - [Donovan Maidens' template](https://github.com/djm56/eleventy-tailwind-cloudflare) for demonstrating how to configure a navigation active state in 11ty.
