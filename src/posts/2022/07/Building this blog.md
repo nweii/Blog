@@ -8,3 +8,4 @@ tags:
 - culture
 ---
 
+For a long time I've been reading other blogs and finally decided to start my own. 
