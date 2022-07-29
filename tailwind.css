@@ -13,8 +13,8 @@ html {
   --text-base: theme(fontSize.base);
   --text-lg: theme(fontSize.lg);
   --qb-bg-dark: theme(colors.stone.900 / 70%);
-  --strong: theme(colors.stone.900);
-  --strong-dark: theme(colors.stone.50 / 98%);
+  --strong: theme(colors.stone.900 / 90%);
+  --strong-dark: theme(colors.stone.50 / 85%);
   --faded: theme(colors.stone.500);
   --faded-dark: theme(colors.stone.50/70%);
   --link: theme(colors.emerald.500);

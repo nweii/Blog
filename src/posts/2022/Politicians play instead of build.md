@@ -1,6 +1,6 @@
 ---
-title: Politicians play instead of build
-date: 2022-07-01
+title: Politicians don't build, they play
+date: 2022-08-01
 tags:
 - politics
 ---
