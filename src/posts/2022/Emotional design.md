@@ -1,6 +1,7 @@
 ---
 title: Emotional design
 date: 2022-07-20
+published: false
 tags:
 - design
 ---
