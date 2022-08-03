@@ -68,7 +68,7 @@ html {
   }
   
   .post-content {
-    @apply leading-relaxed prose prose-stone prose-a:link-hover prose-a:underline-offset-2 dark:prose-invert prose-img:rounded-md prose-img:shadow prose-ul:list-outside;
+    @apply leading-relaxed prose prose-stone prose-a:link-hover prose-a:underline-offset-2 dark:prose-invert prose-img:rounded-md prose-img:shadow prose-ul:list-outside prose-blockquote:not-italic;
   }
 }
 
@@ -77,11 +77,15 @@ html {
 }
 
 .footnote-ref > a {
-  @apply underline-offset-2 text-stone-500 dark:text-stone-50/75;
+  @apply underline-offset-[7px] text-stone-500 dark:text-stone-50/75;
+}
+
+.footnotes {
+  @apply text-sm;
 }
 
 .footnote-backref {
-  @apply text-stone-400 dark:text-stone-50/50;
+  @apply ml-1 text-stone-500 dark:text-stone-50/[.70];
 }
 
 .post-inFeed {
