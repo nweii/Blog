@@ -59,7 +59,6 @@ var quoteStyle  = `
   -ms-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease
-  selection: var(--selection);
 }
 
 .quoteback-container:hover {
