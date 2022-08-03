@@ -11,6 +11,7 @@ var quoteStyle  = `
   --content-color: var(--strong);
   --content-size: var(--text-base);
   --content-lh: 1.625;
+  --selection: var(--sel);
   --internal-blockquote-color: #5C6D73;
   --shadow-none: 0 0 #0000;
   --shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
@@ -28,12 +29,21 @@ var quoteStyle  = `
     --gototext-color: var(--faded-dark);
     --gototext-color-hover: var(--link-dark);
     --content-color: var(--strong-dark);
+    --selection: var(--sel-dark);
     --internal-blockquote-color: #5C6D73;
     --shadow: 0 1px 2px 0 rgb(0 0 0 / 0.2);
     --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.15), 0 4px 6px -4px rgb(0 0 0 / 0.15);
     --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.15), 0 8px 10px -6px rgb(0 0 0 / 0.15);
   }
 } 
+
+::-moz-selection {
+  background: var(--selection);
+}
+
+::selection {
+  background: var(--selection);
+}
 
 .quoteback-container {
   font-family: var(--system-fonts);
@@ -49,6 +59,7 @@ var quoteStyle  = `
   -ms-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease
+  selection: var(--selection);
 }
 
 .quoteback-container:hover {
