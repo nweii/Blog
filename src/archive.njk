@@ -9,7 +9,7 @@ pagination:
   Archive
 </h1>
 <!-- Gather posts and display each in a feed -->
-{% for post in collections.all %}
+{% for post in collections.posts %}
 {% if post.data.published %}
 <div class="post-link">
   <p class="post-title link-hover">
