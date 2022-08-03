@@ -3,7 +3,7 @@ layout: main
 title: Tags
 ---
 
-<h1 class="title-wide mb-6">
+<h1 class="mb-6">
     Tags
 </h1>
 
