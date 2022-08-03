@@ -8,13 +8,13 @@ tags:
 - film
 - ideology
 ---
-This [E-flux essay on social media ideology](https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/) makes a few expansive arguments about what we consider when we think about the social web:
+This [e-flux essay on social media ideology](https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/) makes a few expansive arguments about what we consider when we think about the social web:
 <blockquote class="quoteback" darkmode="" data-title="On the Social Media Ideology - Journal #75" data-author="Geert Lovink - e-flux" cite="https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/">
 <p>Social networking is much more than just a dominant discourse. We need to go beyond text and images and include its software, interfaces, and networks that depend on a technical infrastructure consisting of offices and their consultants and cleaners, cables and data centers, working in close concert with the movements and habits of the connected billions. (...)</p>
 <footer><cite><a href="https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/" target="_blank">https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/</a></cite></footer>
 </blockquote>
 
-We often overlook the internet's physicality. The ethereal "cloud" is a [massive network of data centers](https://www.theatlantic.com/technology/archive/2016/01/amazon-web-services-data-center/423147/) in [server arrays](https://duckduckgo.com/?q=internet+server+rooms&iar=images&iax=images&ia=images) as formidable & imposing as ancient [terra cotta armies](https://duckduckgo.com/?q=terra+cotta+armies&iax=images&ia=images). 
+We often overlook the internet's physical presence. The ethereal "cloud" is a [massive network of data centers](https://www.theatlantic.com/technology/archive/2016/01/amazon-web-services-data-center/423147/) in [server arrays](https://duckduckgo.com/?q=internet+server+rooms&iar=images&iax=images&ia=images) as formidable & imposing as ancient [terra cotta armies](https://duckduckgo.com/?q=terra+cotta+armies&iax=images&ia=images). 
 
 In general, we should think more holistically about the systems we use, especially foundational ones we typically take for granted.
 <blockquote class="quoteback" darkmode="" data-title="On the Social Media Ideology - Journal #75" data-author="Geert Lovink - e-flux" cite="https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/">
@@ -38,7 +38,9 @@ Software, or perhaps more precisely operating systems, offer us an <strong>imagi
 <footer><cite><a href="" target="_blank"></a></cite></footer>
 </blockquote>
 
-
-We could say that social media performs the same function, assigning a value to engagement and actions that's actually optimized for advertisers & companies, laying down templates for us to express ourselves, and making visibility into something that's less about existing and more about self-branding.
+I don't mean to sound corny, but social media is ideology in the same way. The current models:
+- Assign value to actions/engagement in a way that's optimized more for advertisers & companies than for people
+- Establish templates for us to express ourselves
+- Turn "visibility" into something that's less about existing and more about self-branding
 
 [^1]: Today's arthouse films could have been another universe's overcommercialized Marvel movies. I wonder how today's standards could be seen as rudimentary / experimental / quaint in the future. At the time of its release in 1929, Critics dismissed *Man with a Movie Camera*, an avant-garde documentary with no actors or "plot," even when it popularized now-common film techniques fast & slow motion, jump cuts, split screens, and match cuts. Now, elements like its quick cuts and self-referentiality common in contemporary films/series.
