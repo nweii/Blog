@@ -63,7 +63,7 @@ module.exports = function(eleventyConfig) {
     return Array.from(tagsSet).sort()
   })
 
-  const md = markdownIt({ html: true, linkify: true })
+  const md = markdownIt({ html: true, linkify: true }).disable('code')
   md.use(markdownItAnchor, { 
     level: [1, 2], 
     permalink: markdownItAnchor.permalink.headerLink({ 
@@ -101,7 +101,7 @@ module.exports = function(eleventyConfig) {
     // pass token to default renderer.
     return defaultRender(tokens, idx, options, env, self);
   };
-  eleventyConfig.setLibrary('md', md)
+  eleventyConfig.setLibrary('md', md.disable("code"))
 
   // creates a shortcode that allows inserting images with alt-texts. Usage {% asset_img 'imagename','alt-text' %}
   // you can pass an optional third argument to give the image a custom path. defaults to /assets/img/posts/
