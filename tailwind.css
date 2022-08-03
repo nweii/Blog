@@ -60,7 +60,7 @@ html {
   }
   
   .post-tag {
-    @apply text-sm inline-block py-0 px-2 mr-1 rounded-md border border-stone-300 dark:border-stone-50/25 text-stone-500 dark:text-stone-50/[.70] link-container-hover;
+    @apply text-sm inline-block py-0 px-2 mr-1 mb-1 rounded-md border border-stone-300 dark:border-stone-50/25 text-stone-500 dark:text-stone-50/[.70] link-container-hover;
   }
   
   .date {
