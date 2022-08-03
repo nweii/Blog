@@ -23,7 +23,7 @@ In general, we should think more holistically about the systems we use, especial
 </blockquote>
 
 
-It's easy to overlook the role that experimentation, design, and *happenstance* have played in the processes we take for granted today. Before movies matured into a standard media format, every movie was an "experimental" movie. Today, we can assume a film will have a main character(s), conflict, plot, rising action, and climax. But things didn't have to turn out this way, and they don't have to remain this way.[^1]  
+It's easy to overlook the role that experimentation, design, and *happenstance* have played in the processes we take for granted today. Before movies matured into a standard media format, every movie was an "experimental" movie. Today, mainstream audiences can expect a main character(s), conflict, plot, rising action, and climax. But things didn't have to turn out this way, and they don't have to remain this way.[^1]  
 
 Viewing social media as something that developed incidentally gives us a lot of conceptual offshoots. Like everything else, it's developed in a way that's optimized for capitalism (profit over wellbeing), hyper-individuality, and neglect:
 <blockquote class="quoteback" darkmode="" data-title="On the Social Media Ideology - Journal #75" data-author="Geert Lovink - e-flux" cite="https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/">
