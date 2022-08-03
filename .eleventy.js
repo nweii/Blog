@@ -80,7 +80,7 @@ module.exports = function(eleventyConfig) {
     if (tokens[idx].meta.subId > 0) {
       n += ":" + tokens[idx].meta.subId;
     }
-    return n;
+    return n + ' ';
   };
   
   // add target="_blank" to all links aka open all links in new window
