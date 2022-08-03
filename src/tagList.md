@@ -8,9 +8,9 @@ permalink: /tags/{{ tag | slugify }}/
 eleventyComputed:
   title: "{{ tag }}"
 ---  
-<p class="title-wide mb-6">
+<h1 class="title-wide mb-6">
   Posts tagged <span class="ml-1 font-sans py-0.5 px-2 rounded-lg text-stone-900/[.48] dark:text-stone-50/[.55] border border-stone-300 dark:border-stone-50/[.20]">{{ tag }}</span>
-</p>
+</h1>
 <!-- Enclose post list with div -->
 <div>
 {% for post in collections[tag] %}

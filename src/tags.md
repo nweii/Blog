@@ -3,9 +3,9 @@ layout: main
 title: Tags
 ---
 
-<p class="title-wide mb-6">
+<h1 class="title-wide mb-6">
     Tags
-</p>
+</h1>
 
 {% for tag in collections.tagList %}
 {% for post in collections[tag] %}
