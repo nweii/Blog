@@ -42,7 +42,9 @@ Created new post at src/posts/2021/01/new-blog-post.md
 
 ## Credits
 - Mark Thomas Miller's blog post [comparing popular static site generators](https://mtm.dev/static), which helped me decide on Eleventy over Next.js. Also, his blog post explaining [how Eleventy works](https://mtm.dev/eleventy).
+  - Also his post on [adding a site map](https://mtm.dev/eleventy-sitemap/).
 - Tom Critchlow's ["Provocations for Blogging"](https://tomcritchlow.com/2022/05/20/streaks/)
 - Daring Fireball & Pixel Envy for blog inspo, along with 
 - [Donovan Maidens' template](https://github.com/djm56/eleventy-tailwind-cloudflare) for demonstrating how to configure a navigation active state in 11ty.
 - Mark Llobrera's blog post about [customizing the Markdown footnotes plugin](https://www.markllobrera.com/posts/eleventy-markdown-and-footnotes/).
+- Charlie Park's post explaining a filter function to [convert straight quotes to curly](https://charliepark.org/smartquotes_in_eleventy/) ([Yes this matters](https://practicaltypography.com/straight-and-curly-quotes.html)).
