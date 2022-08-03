@@ -31,6 +31,6 @@
 </head>
     <body class="bg-fixed bg-stone-50 dark:bg-stone-600 bg-gradient-to-b from-stone-100 to-stone-50 dark:bg-gradient-to-b dark:from-stone-700 dark:to-stone-600 text-black dark:text-white selection:bg-emerald-100 dark:selection:bg-emerald-700">
       <!-- Main -->
-      {{ content | safe }}
+      {{ content | smartquotes | safe }}
     </body>
 </html>

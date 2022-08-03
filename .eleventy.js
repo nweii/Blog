@@ -37,6 +37,27 @@ module.exports = function(eleventyConfig) {
     });
   });
   
+  // To create a filter that converts straight quotes to curly. See https://charliepark.org/smartquotes_in_eleventy/
+  eleventyConfig.addFilter("smartquotes", (post) => {
+    const apostrophes = new RegExp(/(?<=<(h|l|p[^r]).*)\b'\b/g);
+    const years = new RegExp(/(?<=\s)'(?=\d)/g);
+    const openDoubles = new RegExp(/(?<=<(h|l|p[^r]).*)(?<=\s|>)&quot;/g);
+    const closeDoubles = new RegExp(/(?<=<(h|l|p[^r]).*“.*)&quot;(?=(\s|\p{P}|<))/gu);
+    const openSingles = new RegExp(/((?<=<(h|l|p[^r]).*)(?<=\s|>)|\n)'/g);
+    const closeSingles = new RegExp(/(?<=<(h|l|p[^r]).*‘.*)'(?=(\s|\p{P}|<))/gu);
+    return post
+      .replace(apostrophes, "’").replace(years, "’")
+      .replace(openDoubles, "“").replace(closeDoubles, "”")
+      .replace(openSingles, "‘").replace(closeSingles, "’");
+  });
+  
+  // to create a filter that removes <footer></footer> tags and all their contents. I'm only using this on the RSS generator (feed.njk), where Quotebacks doesn't run and doesn't need footer data. Otherwise there would be an unnecessary url repeated at the end of every blockquote in plaintext.
+  eleventyConfig.addFilter("noFooterTags", (post) => {
+    const footerTags = new RegExp(/<footer[^>]*>.*?<\/footer>|<footer[^>]*>/gm);
+    return post
+      .replace(footerTags, "");
+  });
+  
   // To create a filter to determine duration of post
   eleventyConfig.addFilter('readTime', (value) => {
     const content = value
