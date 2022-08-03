@@ -2,5 +2,9 @@
     "layout": "post.njk",
     "tags": ["posts"],
     "published": true,
-    "permalink": "/{{ page.date | date: '%Y/%m' }}/{{title | slugify}}/index.html"
+    "permalink": "/{{ page.date | date: '%Y/%m' }}/{{title | slugify}}/index.html",
+    "sitemap": {
+        "changefreq": "weekly",
+        "priority": "0.75"
+    }
 }

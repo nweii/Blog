@@ -1,3 +1,7 @@
+---
+permalink: /robots.txt
+layout: null
+---
 Sitemap: https://blog.nathancheng.work/sitemap.xml
 
 User-agent: *
