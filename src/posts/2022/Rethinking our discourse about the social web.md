@@ -14,21 +14,24 @@ This [E-flux essay on social media ideology](https://www.e-flux.com/journal/75/6
 <footer><cite><a href="https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/" target="_blank">https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/</a></cite></footer>
 </blockquote>
 
-We often overlook the physicality of the internet. The ethereal "cloud" is actually a [massive network of data centers](https://www.theatlantic.com/technology/archive/2016/01/amazon-web-services-data-center/423147/) in server array rooms [so massive](https://duckduckgo.com/?q=internet+server+rooms&iar=images&iax=images&ia=images) and imposing that they remind me of [terra cotta armies](https://duckduckgo.com/?q=terra+cotta+armies&iax=images&ia=images). In general, we should think more holistically about the systems we use, especially foundational ones we typically take for granted.
+We often overlook the internet's physicality. The ethereal "cloud" is a [massive network of data centers](https://www.theatlantic.com/technology/archive/2016/01/amazon-web-services-data-center/423147/) in [server arrays](https://duckduckgo.com/?q=internet+server+rooms&iar=images&iax=images&ia=images) as formidable & imposing as ancient [terra cotta armies](https://duckduckgo.com/?q=terra+cotta+armies&iax=images&ia=images). 
+
+In general, we should think more holistically about the systems we use, especially foundational ones we typically take for granted.
 <blockquote class="quoteback" darkmode="" data-title="On the Social Media Ideology - Journal #75" data-author="Geert Lovink - e-flux" cite="https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/">
 <p>… Before we enter the social media sphere, everyone first fills out a profile and choses a username and password in order to create an account. Minutes later, you’re part of the game and you start sharing, creating, playing, as if it has always been like that [...] The platforms present themselves as self-evident. <strong>They just are</strong>—facilitating our feature-rich lives.</p>
 <footer><cite><a href="https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/" target="_blank">https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/</a></cite></footer>
 </blockquote>
 
 
-It's easy to overlook the role that experimentation, design, and *happenstance* have played in the processes we take for granted today. Before movies matured into a standard media format, every movie was an "experimental" movie. Today, we can assume a film will have a main character(s), conflict, plot, rising action, and climax. But things didn't have to turn out this way, and they don't have to remain this way.[^1]
-Viewing social media as something that developed incidentally enables a lot of conceptual offshoots. It's at a point where it's optimized for capitalism (profit over wellbeing), hyper-individuality, and neglect:
+It's easy to overlook the role that experimentation, design, and *happenstance* have played in the processes we take for granted today. Before movies matured into a standard media format, every movie was an "experimental" movie. Today, we can assume a film will have a main character(s), conflict, plot, rising action, and climax. But things didn't have to turn out this way, and they don't have to remain this way.[^1]  
+
+Viewing social media as something that developed incidentally gives us a lot of conceptual offshoots. Like everything else, it's developed in a way that's optimized for capitalism (profit over wellbeing), hyper-individuality, and neglect:
 <blockquote class="quoteback" darkmode="" data-title="On the Social Media Ideology - Journal #75" data-author="Geert Lovink - e-flux" cite="https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/">
 <p>Treating social media as ideology means observing how it binds together media, culture, and identity into an ever-growing cultural performance (and related “cultural studies”) of gender, lifestyle, fashion, brands, celebrity, and news from radio, television, magazines, and the web—all of this imbricated with the entrepreneurial values of venture capital and start-up culture, with their underside of declining livelihoods and growing inequality.</p>
 <footer><cite><a href="https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/" target="_blank">https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/</a></cite></footer>
 </blockquote>
 
-And extending that holistic view to all software helps the argument that software is a form of ideology:
+Extending that holistic view to all software helps the argument that software is a form of ideology:
 <blockquote class="quoteback" darkmode="" data-title="On the Social Media Ideology - Journal #75" data-author="Geert Lovink - e-flux" cite="https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/">
 <p>Software “fulfills almost every formal definition of ideology we have, from ideology as false consciousness to Louis Althusser’s definition of ideology as a ‘representation’ of the imaginary relation of individuals to their real conditions of existence.’”<br />
 Software, or perhaps more precisely operating systems, offer us an <strong>imaginary relationship to our hardware</strong>: they do not represent transistors but rather desktops and recycling bins. <strong>Software produces users.</strong> Without operating system (OS) there would be no access to hardware; <strong>without OS no actions, no practices</strong>, and thus no user. Each OS, through its advertisements, interpellates a “user”: calls it and offers it a name or image with which to identify.</p>
