@@ -9,7 +9,7 @@ eleventyComputed:
   title: "{{ tag }}"
 ---  
 <h1 class="title-wide mb-6">
-  Posts tagged <span class="ml-1 font-sans py-0.5 px-2 rounded-lg text-stone-900/[.48] dark:text-stone-50/[.55] border border-stone-300 dark:border-stone-50/[.20]">{{ tag }}</span>
+  Posts tagged <span class="ml-1 font-sans py-0.5 px-2 rounded-lg text-stone-900/[.48] dark:text-stone-50/[.55] border border-2 border-stone-200 dark:border-stone-50/[.10]">{{ tag }}</span>
 </h1>
 <!-- Enclose post list with div -->
 <div>
