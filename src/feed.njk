@@ -17,7 +17,7 @@ eleventyExcludeFromCollections: true
 	</author>
 	<rights>Copyright © Nathan Cheng</rights>
 	{%- for post in collections.posts | reverse %}
-	{%- if page.data.published %}
+	{%- if post.data.published %}
 	{%- set absolutePostUrl = post.url | url | absoluteUrl(metadata.url) %}
 	<entry>
 		<title>{{ post.data.title }}</title>
