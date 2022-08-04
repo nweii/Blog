@@ -10,7 +10,7 @@ title: About
 <div class="post-content">
 <div class="md:flex flex-row gap-8 justify-between items-start">
 <div class="grow">
-	
+
 I'm an early career visual designer who's interested in emerging technology, code, interfaces, and visual storytelling. You can see some of my work [here]({{metadata.portfolio}}) and work-related info [here]({{metadata.portfolio}}/info). 
 
 If you have something you’d like to add to an article or post I’ve written, please feel free to reach out. You can reach me at [{{metadata.email}}](mailto:{{metadata.email}}). 
