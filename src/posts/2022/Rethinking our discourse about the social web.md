@@ -38,7 +38,7 @@ Software, or perhaps more precisely operating systems, offer us an <strong>imagi
 <footer><cite><a href="" target="_blank"></a></cite></footer>
 </blockquote>
 
-I don't mean to sound corny, but social media is ideology in the same way. The current models:
+I don't mean to sound corny, but social media is ideology in the same way. The current models…
 - Assign value to actions/engagement in a way that's optimized more for advertisers & companies than for people
 - Establish templates for us to express ourselves
 - Turn "visibility" into something that's less about existing and more about self-branding
