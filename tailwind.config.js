@@ -35,10 +35,10 @@ module.exports = {
             // Adjusted Tailwind default so that prose width only applies to <p> tags
             maxWidth: 'none',
             p: {
-              maxWidth: '65ch',
+              maxWidth: '60ch',
             },
             ul: {
-              maxWidth: '65ch',
+              maxWidth: '60ch',
             },
             // Adjusted Tailwind default to un-bold quotes and make the line thinner
             blockquote: {
