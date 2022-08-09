@@ -12,4 +12,6 @@ Issac Saul, in this week's [Tangle newsletter](https://www.readtangle.com/) - [S
 <footer>@TangleNews<cite> <a href="https://www.readtangle.com/inflation-reduction-act/">https://www.readtangle.com/inflation-reduction-act/</a></cite></footer>
 </blockquote>
 
-I was relieved to hear about this bill, but it’s still up to the IRS & private  companies to follow through on some of the intended impacts. They can either shoulder the costs for the greater good, or pass the costs on to more vulnerable people and continue our country’s obsession with profits over people. I’d like to see the press naming and getting statements from the people who are making these kinds of decisions.
+I was relieved to hear about this bill, but it’s still up to the IRS & private  companies to follow through on some of the intended impacts. They can either shoulder the costs for the greater good, or pass the costs on to more vulnerable people and continue our country’s obsession with profits over people.  
+
+I’d like to see the press naming and getting statements from the people who are making these kinds of decisions.
