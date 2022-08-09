@@ -1,6 +1,6 @@
 ---
-title: Bidens climate & healthcare bill
-date: 2022-08-08
+title: Biden's climate & healthcare bill
+date: 2022-08-09
 published: true
 tags:
 - politics
@@ -11,4 +11,5 @@ tags:
 […] The bill is a climate change and health care bill with very clear direct tax hikes on profitable corporations to offset the spending. It will almost certainly reduce emissions and, in the long term, bring more green energy onto the grid. Health insurance and drug prices for Medicare recipients and people on the ACA will probably come down. They may go up for others, depending on how private insurers react. Some of the new revenue will come from increased IRS enforcement, which could hit middle and lower-income people hardest. And, of course, corporations are liable to pass on tax hikes with increased prices or layoffs, along with stock shares falling.</p>
 <footer>@TangleNews<cite> <a href="https://www.readtangle.com/inflation-reduction-act/">https://www.readtangle.com/inflation-reduction-act/</a></cite></footer>
 </blockquote>
+
 I was relieved to hear about this bill, but it seems like it’s still up to the IRS & private insurance companies to follow through on some of the intended impacts. They can either shoulder the costs for the greater good, or pass on the costs to vulnerable people and continue our country’s obsession with profits over people. I’d like to see the press naming people at these establishments who are making these kinds of decisions. If there’s implementation issues at the federal or establishment level, I’d like to see those publicized too.
