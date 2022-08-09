@@ -37,6 +37,9 @@ module.exports = {
             p: {
               maxWidth: '65ch',
             },
+            ul: {
+              maxWidth: '65ch',
+            },
             // Adjusted Tailwind default to un-bold quotes and make the line thinner
             blockquote: {
               fontWeight: '400',
