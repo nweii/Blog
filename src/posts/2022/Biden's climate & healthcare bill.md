@@ -14,4 +14,4 @@ Issac Saul, in this week's [Tangle newsletter](https://www.readtangle.com/) - [S
 
 I was relieved to hear about this bill, but it seems like it’s still up to the IRS & private  companies to follow through on some of the intended impacts. 
 
-These establishments can either shoulder the costs for the greater good or pass the costs on to more vulnerable people and continue our country’s obsession with profits over people. I’d like to see the press naming and getting statements from the people who are making these kinds of decisions.
+These establishments can either shoulder the costs for the greater good, or pass the costs on to more vulnerable people and continue our country’s obsession with profits over people. I’d like to see the press naming and getting statements from the people who are making these kinds of decisions.
