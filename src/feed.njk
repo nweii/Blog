@@ -24,7 +24,7 @@ eleventyExcludeFromCollections: true
 		<link href="{{ absolutePostUrl }}"/>
 		<updated>{{ post.date | dateToRfc3339 }}</updated>
 		<id>{{ absolutePostUrl }}</id>
-		<content xml:lang="{{ metadata.language }}" type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | noFooterTags | smartquotes }}</content>
+		<content xml:lang="{{ metadata.language }}" type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | noQBFooterTags }}</content>
 	</entry>
 	{%- endif %}
 	{%- endfor %}

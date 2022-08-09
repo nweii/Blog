@@ -52,7 +52,7 @@ module.exports = function(eleventyConfig) {
   });
   
   // to create a filter that removes <footer></footer> tags and all their contents. I'm only using this on the RSS generator (feed.njk), where Quotebacks doesn't run and doesn't need footer data. Otherwise there would be an unnecessary url repeated at the end of every blockquote in plaintext.
-  eleventyConfig.addFilter("noFooterTags", (post) => {
+  eleventyConfig.addFilter("noQBFooterTags", (post) => {
     const footerTags = new RegExp(/<footer[^>]*>.*?<\/footer>|<footer[^>]*>/gm);
     return post
       .replace(footerTags, "");
