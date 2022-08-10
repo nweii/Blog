@@ -14,7 +14,7 @@ This [e-flux essay on social media ideology](https://www.e-flux.com/journal/75/6
 <footer><cite><a href="https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/" target="_blank">https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/</a></cite></footer>
 </blockquote>
 
-We often overlook the internet's physical presence. The ethereal "cloud" is a [massive network of data centers](https://www.theatlantic.com/technology/archive/2016/01/amazon-web-services-data-center/423147/) in [server arrays](https://duckduckgo.com/?q=internet+server+rooms&iar=images&iax=images&ia=images) as formidable & imposing as ancient [terra cotta armies](https://duckduckgo.com/?q=terra+cotta+armies&iax=images&ia=images). 
+We often overlook the internet's physical presence. The ethereal "cloud" is a [massive network of data centers](https://www.theatlantic.com/technology/archive/2016/01/amazon-web-services-data-center/423147/) in [server arrays](https://duckduckgo.com/?q=internet+server+rooms&iar=images&iax=images&ia=images) as formidable & imposing as ancient [terra cotta armies](https://duckduckgo.com/?q=terra+cotta+armies&iax=images&ia=images). Software designers and product strategists obsess over ways to encourage or discourage user behavior through design. 
 
 In general, we should think more holistically about the systems we use, especially foundational ones we typically take for granted.
 <blockquote class="quoteback" darkmode="" data-title="On the Social Media Ideology - Journal #75" data-author="Geert Lovink - e-flux" cite="https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/">
@@ -23,9 +23,9 @@ In general, we should think more holistically about the systems we use, especial
 </blockquote>
 
 
-It's easy to overlook the role that experimentation, design, and *happenstance* have played in the processes we take for granted today. Before movies matured into a standard media format, every movie was an "experimental" movie. Today, mainstream audiences can expect a main character(s), conflict, plot, rising action, and climax. But things didn't have to turn out this way, and they don't have to remain this way.[^1]  
+It's easy to overlook the role that trial and *happenstance* have played in the processes we take for granted today. Before movies matured into a standard media format, every movie was an "experimental" movie. Today, mainstream audiences can expect a main character(s), conflict, plot, rising action, and climax. But things didn't have to turn out this way, and they don't have to remain this way.[^1]  
 
-When I bring that mindset to social media, I think about its current devotion to things like engagement metrics, “personalization.” Like everything else, its evolved into a set of standards and familiar design practices optimized for capitalism (profit over wellbeing), hyper-individuality, and “optics” over lived reality:
+When I bring that mindset to social media, I think about its valuation of things like engagement metrics and “personalization.” Like everything else, social media has evolved a set of standards and familiar design practices optimized for capitalism (profit over wellbeing), hyper-individuality, and “optics” over lived reality:
 <blockquote class="quoteback" darkmode="" data-title="On the Social Media Ideology - Journal #75" data-author="Geert Lovink - e-flux" cite="https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/">
 <p>Treating social media as ideology means observing how it binds together media, culture, and identity into an ever-growing cultural performance (and related “cultural studies”) of gender, lifestyle, fashion, brands, celebrity, and news from radio, television, magazines, and the web—all of this imbricated with the entrepreneurial values of venture capital and start-up culture, with their underside of declining livelihoods and growing inequality.</p>
 <footer><cite><a href="https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/" target="_blank">https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/</a></cite></footer>
