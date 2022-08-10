@@ -1,5 +1,5 @@
 ---
-title: Rethinking our discourse about the social web
+title: Ideology & the social web
 date: 2022-08-04
 published: true
 tags:
@@ -25,7 +25,7 @@ In general, we should think more holistically about the systems we use, especial
 
 It's easy to overlook the role that experimentation, design, and *happenstance* have played in the processes we take for granted today. Before movies matured into a standard media format, every movie was an "experimental" movie. Today, mainstream audiences can expect a main character(s), conflict, plot, rising action, and climax. But things didn't have to turn out this way, and they don't have to remain this way.[^1]  
 
-Viewing social media as something that developed incidentally gives us a lot of conceptual offshoots. Like everything else, it's developed in a way that's optimized for capitalism (profit over wellbeing), hyper-individuality, and neglect:
+When I bring that mindset to social media, I think about its current devotion to things like engagement metrics, “personalization.” Like everything else, its evolved into a set of standards and familiar design practices optimized for capitalism (profit over wellbeing), hyper-individuality, and “optics” over lived reality:
 <blockquote class="quoteback" darkmode="" data-title="On the Social Media Ideology - Journal #75" data-author="Geert Lovink - e-flux" cite="https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/">
 <p>Treating social media as ideology means observing how it binds together media, culture, and identity into an ever-growing cultural performance (and related “cultural studies”) of gender, lifestyle, fashion, brands, celebrity, and news from radio, television, magazines, and the web—all of this imbricated with the entrepreneurial values of venture capital and start-up culture, with their underside of declining livelihoods and growing inequality.</p>
 <footer><cite><a href="https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/" target="_blank">https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/</a></cite></footer>
@@ -38,9 +38,11 @@ Software, or perhaps more precisely operating systems, offer us an <strong>imagi
 <footer><cite><a href="" target="_blank"></a></cite></footer>
 </blockquote>
 
-I don't mean to sound corny, but social media is ideology in the same way. The current models…
+The current social media product trends…
 - Assign value to actions/engagement in a way that's optimized more for advertisers & companies than for people
 - Establish templates for us to express ourselves
 - Turn "visibility" into something that's less about existing and more about self-branding
+
+Social media ideology depends on metaphors and values we take for granted in software design. Instagram & Facebook in their current states (unfocused, forcing engagement patterns on users for metrics over product quality) seem like extreme signs that we need to change course.
 
 [^1]: Today's arthouse films could have been another universe's overcommercialized Marvel movies. I wonder how today's standards could be seen as rudimentary / experimental / quaint in the future. At the time of its release in 1929, Critics dismissed *Man with a Movie Camera*, an avant-garde documentary with no actors or "plot," even when it popularized now-common film techniques fast & slow motion, jump cuts, split screens, and match cuts. Now, elements like its quick cuts and self-referentiality common in contemporary films/series.
