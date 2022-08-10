@@ -3,8 +3,8 @@ var quoteStyle  = `
 .quoteback-container {
   --containerWidth: 70ch;
   --background-color: white;
-  --border-color-normal: #e7e5e4;
-  --border-color-hover: #d6d3d1;
+  --border-color-normal: var(--border);
+  --border-color-hover: var(--border-hover);
   --author-color: var(--strong);
   --title-color: var(--faded);
   --gototext-color: var(--faded);
@@ -23,13 +23,13 @@ var quoteStyle  = `
 @media (prefers-color-scheme: dark) {
   .quoteback-container {
     --background-color: var(--qb-bg-dark);
-    --border-color-normal: hsla(60,9%,98%,0.2);
-    --border-color-hover: hsla(60,9%,98%,0.2);
+    --border-color-normal: var(--border-dark);
+    --border-color-hover: var(--border-hover-dark);
     --author-color: var(--strong-dark);
     --title-color: var(--faded-dark);
     --gototext-color: var(--faded-dark);
     --gototext-color-hover: var(--link-dark);
-    --content-color: var(--strong-dark);
+    --content-color: var(--faded-dark);
     --selection: var(--sel-dark);
     --internal-blockquote-color: #5C6D73;
     --shadow: 0 1px 2px 0 rgb(0 0 0 / 0.2);

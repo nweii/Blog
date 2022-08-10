@@ -12,13 +12,17 @@ html {
   --text-sm: theme(fontSize.sm);
   --text-base: theme(fontSize.base);
   --text-lg: theme(fontSize.lg);
-  --qb-bg-dark: theme(colors.stone.900 / 70%);
+  --qb-bg-dark: theme(colors.stone.800);
   --strong: theme(colors.stone.900 / 80%);
-  --strong-dark: theme(colors.stone.50 / 85%);
+  --strong-dark: theme(colors.stone.50 / 80%);
   --faded: theme(colors.stone.500);
-  --faded-dark: theme(colors.stone.50/70%);
+  --faded-dark: theme(colors.stone.50 / 70%);
   --link: theme(colors.emerald.500);
   --link-dark: theme(colors.emerald.300);
+  --border: theme(colors.stone.300);
+  --border-hover: theme(colors.stone.300);
+  --border-dark: theme(colors.stone.50 / 12%);
+  --border-hover-dark: theme(colors.stone.50 / 12%);
   --sel: theme(colors.emerald.100);
   --sel-dark: theme(colors.emerald.700);
 }
@@ -40,7 +44,7 @@ html {
   }
   
   h1, h2, h3, h4, h5, h6 {
-    @apply font-wide text-stone-500 dark:text-stone-50/[0.8]; 
+    @apply font-wide text-stone-600 dark:text-stone-50/[0.8]; 
   }
   
   h1 {
@@ -62,11 +66,11 @@ html {
   }
   
   .title-wide {
-    @apply text-xl font-wide text-stone-900/[.48] dark:text-stone-50/[.55] leading-tight mb-4;
+    @apply text-xl font-wide text-stone-900/[.60] dark:text-stone-50/[.55] leading-tight mb-4;
   }
   
   .post-title {
-    @apply font-wide text-xl text-stone-500 dark:text-stone-50/[0.8] pb-2; 
+    @apply font-wide text-xl text-stone-600 dark:text-stone-50/[0.8] pb-2; 
   }
   
   .paginator-text {
