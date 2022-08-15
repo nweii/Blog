@@ -14,9 +14,15 @@ layout: main
   {{ content | safe }}
 </article>
 <div id="postFooter" class="mt-12">
-  <a href="{{ post.url }}" class="text-sm text-stone-500 dark:text-stone-50/[.80] font-normal mt-4 underline-offset-2">
-    <u>Link to this post</u>
-  </a>
+  <ul class="text-sm text-stone-500 dark:text-stone-50/[.80] font-normal mt-4 underline-offset-2 flex flex-row gap-2">
+    <li><a href="{{ post.url }}">
+        <u>Link to this post</u>
+      </a></li>
+    <li>•</li>
+    <li><a href="mailto:{{metadata.email}}?subject=RE: [{{ title | slugify }}]&body=%0A%0APost%20link%3A%0A{{ metadata.url }}{{ page.url }}">
+        <u>Reply</u>
+      </a></li>
+  </ul>
   {% if post.tags != "" %}
   <div id="postTags" class="mt-4 text-sm text-stone-500 dark:text-stone-50/[.8]">
     <em>More posts tagged:</em>
