@@ -28,6 +28,7 @@ If you want updates from this page, you can subscribe to the [RSS feed](/feed.xm
 - Gleb Posobin's [Tweet](https://twitter.com/posobin/status/1091156574993870849)
 - Matt Webb's "[15 rules for blogging](https://interconnected.org/home/2020/09/10/streak)"
 - Jim Nielsen, "[The OG Social Network: Other People’s Websites](https://blog.jim-nielsen.com/2022/other-peoples-websites/)"
+- Chase McCoy, "[Crayons, craft paper, and CSS](https://chasem.co/2022/06/crayons-and-css)"
 </div>
 <img src="../assets/img/Portrait-min.JPG" class="w-1/2 md:w-1/3 flex-initial shrink" alt="A black and white portrait of Nathan Cheng in a black turtleneck."/>
 </div>
