@@ -24,9 +24,10 @@ If you want updates from this page, you can subscribe to the [RSS feed](/feed.xm
 - [CV]({{metadata.cv}}) or [LinkedIn]({{metadata.linkedin}})
 
 ## Inspirations for this blog
-- Tom Critchlow, [Blogging Streaks & Freaks](https://tomcritchlow.com/2022/05/20/streaks/)
+- Tom Critchlow, "[Blogging Streaks & Freaks](https://tomcritchlow.com/2022/05/20/streaks/)"
 - Gleb Posobin's [Tweet](https://twitter.com/posobin/status/1091156574993870849)
-- Matt Webb's [15 rules for blogging](https://interconnected.org/home/2020/09/10/streak)
+- Matt Webb's "[15 rules for blogging](https://interconnected.org/home/2020/09/10/streak)"
+- Jim Nielsen, "[The OG Social Network: Other People’s Websites](https://blog.jim-nielsen.com/2022/other-peoples-websites/)"
 </div>
 <img src="../assets/img/Portrait-min.JPG" class="w-1/2 md:w-1/3 flex-initial shrink" alt="A black and white portrait of Nathan Cheng in a black turtleneck."/>
 </div>
