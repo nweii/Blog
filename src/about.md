@@ -20,6 +20,7 @@ If you want updates from this page, you can subscribe to the [RSS feed](/feed.xm
 ## Other places
 - [Letterboxd]({{metadata.letterboxd}})
 - [Spotify](https://open.spotify.com/user/1237353257?si=08574652c9d4437b)
+- [Portfolio]({{metadata.portfolio}})
 - [CV]({{metadata.cv}}) or [LinkedIn]({{metadata.linkedin}})
 
 ## Inspirations for this blog
