@@ -28,9 +28,15 @@ pagination:
     </article>
     <!-- POST FOOTER -->
     <div id="postFooter" class="flex flex-col mt-4 mb-8 gap-4">
-      <a href="{{ post.url }}" class="text-sm text-stone-500 dark:text-stone-50/[.80] font-normal mt-4 underline-offset-2">
-        <u>Link to this post</u>
-      </a>
+      <ul class="text-sm text-stone-500 dark:text-stone-50/[.80] font-normal mt-4 underline-offset-2 flex flex-row gap-2">
+        <li><a href="{{ post.url }}">
+            <u>Link to this post</u>
+          </a></li>
+        <li>•</li>
+        <li><a href="mailto:{{metadata.email}}?subject=RE: [{{ post.data.title | slugify }}]&body=%0A%0APost%20link%3A%0A{{ metadata.url }}{{ post.url}}">
+            <u>Reply</u>
+          </a></li>
+      </ul>
       {% if post.tags != "" %}
       <div id="postTags">
         {% for tag in post.data.tags %}
