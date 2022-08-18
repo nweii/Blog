@@ -3,7 +3,7 @@ title: A love letter to Wikipedia
 date: 2022-08-19
 published: true
 tags:
-- education
+- learning
 - platforms
 ---
 
