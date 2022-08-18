@@ -28,7 +28,7 @@ If you want updates from this page, you can subscribe to the [RSS feed](/feed.xm
 
 ## Online Reading
 Saved from [Raindrop](https://raindrop.io/).
-<iframe style="border: 0; width: 100%; height: 450px;" allowfullscreen frameborder="0" src="https://raindrop.io/nathancheng/saved-26498453/embed/sort=-created&theme=auto&search=%E2%9D%A4%EF%B8%8F" class="rounded-lg shadow-sm"></iframe>
+<iframe style="border: 0; width: 100%; height: 450px;" allowfullscreen frameborder="0" src="https://raindrop.io/nathancheng/saved-26498453/embed/theme=auto&hide=excerpt&search=%E2%9D%A4%EF%B8%8F&sort=-created" class="rounded-lg shadow-sm"></iframe>
 
 ## Inspirations for this blog
 - Tom Critchlow, "[Blogging Streaks & Freaks](https://tomcritchlow.com/2022/05/20/streaks/)"
