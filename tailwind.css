@@ -54,6 +54,10 @@ html {
   h2 {
     @apply text-lg;
   }
+  
+  figcaption {
+    @apply text-stone-500 dark:text-stone-50/[.7] text-sm mt-2;
+  }
 }
 
 @layer components {
@@ -89,6 +93,8 @@ html {
     @apply leading-relaxed prose prose-stone dark:prose-invert
     prose-a:opacity-75 prose-a:link-hover prose-a:underline-offset-2 
     prose-headings:text-stone-500 dark:prose-headings:text-stone-50/[0.8] 
+    prose-p:mb-4 prose-p:mt-0
+    prose-h1:text-lg prose-h2:mb-2
     prose-h2:text-lg prose-h2:mb-2
     prose-img:rounded-md prose-img:shadow 
     prose-ul:list-outside prose-blockquote:not-italic;
