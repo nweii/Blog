@@ -20,7 +20,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/assets')
   eleventyConfig.addPassthroughCopy('src/manifest.json')
   eleventyConfig.addPassthroughCopy("quoteback.js")
-  eleventyConfig.addPassthroughCopy('src/robots.txt')
 
   // To create excerpts
   eleventyConfig.setFrontMatterParsingOptions({
