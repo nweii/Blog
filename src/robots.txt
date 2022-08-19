@@ -1,6 +1,6 @@
 ---
 permalink: /robots.txt
-layout: null
+eleventyExcludeFromCollections: true
 ---
 Sitemap: https://blog.nathancheng.work/sitemap.xml
 
