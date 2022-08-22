@@ -9,7 +9,7 @@ tags:
 
 I love Wikipedia. Its abundant hyperlinks make it easy to indulge any fleeting, tangential interests, and its network of articles is so dense that you can reach any Wikipedia page from another just by “[hyperlink-hopping](https://www.clemesha.org/work/the-wiki-game/).” I wish there was a word for the pleasure of having 20+ tabs open while going down hyperlink-driven internet wormholes.
 
-When I think about ways the internet has raised me, I like to think that spending so much time immersed in Wikipedia’s web helped me become more curious and see the world in a more interconnected way. 
+When I think about ways the internet has raised me, I like to think that spending so much time on Wikipedia helped me become more curious and see the world in a more interconnected way. 
 
 This [deep dive by WIRED](https://www.wired.com/story/wikipedia-online-encyclopedia-best-place-internet/) on Wikipedia ties those attributes to the grander ideal of the internet:
 
