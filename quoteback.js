@@ -39,7 +39,9 @@ var quoteStyle  = `
 } 
 
 @media (hover: none) {
-  --shadow: var(--shadow-lg);
+  .quoteback-container {
+    --shadow: var(--shadow-lg);
+  }
 }
 
 ::-moz-selection {
