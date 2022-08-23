@@ -6,6 +6,7 @@ tags:
 - design
 - film
 - processes
+- business
 ---
 
 [The Browser Company on “Emotional Design”](https://browsercompany.substack.com/p/optimizing-for-feelings):
@@ -45,7 +46,7 @@ As Martin Scorsese, in a [viral critique of Marvel films](https://www.nytimes.co
 <footer><cite><a href="" target="_blank"></a></cite></footer>
 </blockquote>
 
-These negative reviews for [*Uncharted*](https://www.indiewire.com/2022/02/uncharted-movie-review-1234699323/) and [*Jurassic World Dominion*](https://letterboxd.com/jacdeswilliams/film/jurassic-world-dominion/) echo the same sentiments that execs and strategists overlook texture, originality, or anything that people actually care about:
+These negative reviews for [*Uncharted*](https://www.indiewire.com/2022/02/uncharted-movie-review-1234699323/) and [*Jurassic World Dominion*](https://letterboxd.com/jacdeswilliams/film/jurassic-world-dominion/) echo the same sentiments—that execs and strategists overlook texture, originality, or anything that people actually care about:
 <blockquote class="quoteback" darkmode="" data-title="Uncharted Review: Tom Holland Stars in a Bland Video Game Movie" data-author="
 David Ehrlich for IndieWire" cite="https://www.indiewire.com/2022/02/uncharted-movie-review-1234699323/">
 <p>All an “Uncharted” movie had to accomplish — all that it possibly could accomplish — was to capture the glint and derring-do that helped the series port the spirit of Indiana Jones into the modern world. […] It fails in the areas where history says it should have been able to exceed it. The areas where movies have traditionally had the upper hand over video games: Characters. Personality. Humor. Humanity! […] Fleischer’s competently anonymous direction contributes to the film’s general flavorlessness, as Nathan and Sully chase new clues to the treasure’s whereabouts (and to the location of Nathan’s missing brother) from Barcelona to the Philippines without any sense of urgency or purpose.</p>
