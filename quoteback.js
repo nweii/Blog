@@ -39,11 +39,15 @@ var quoteStyle  = `
 } 
 
 @media (hover: none) {
-  --shadow: var(--shadow-lg);
+  .quoteback-container {
+    --shadow: var(--shadow-lg);
+  }
 }
 
 ::-moz-selection {
-  background: var(--selection);
+  .quoteback-container {
+    background: var(--selection);
+  }
 }
 
 ::selection {
