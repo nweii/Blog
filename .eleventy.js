@@ -34,7 +34,7 @@ module.exports = function(eleventyConfig) {
       lower: true,
       replacement: "-",
       remove: /[*+~.·,()'"`´%!?¿:@]/g
-    });
+    }).split('-').slice(0,5).join("-"); // only include first 5 words
   });
   
   // To create a filter that converts straight quotes to curly. See https://charliepark.org/smartquotes_in_eleventy/
