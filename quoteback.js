@@ -38,6 +38,10 @@ var quoteStyle  = `
   }
 } 
 
+@media (hover: none) {
+  --shadow: var(--shadow-lg);
+}
+
 ::-moz-selection {
   background: var(--selection);
 }
