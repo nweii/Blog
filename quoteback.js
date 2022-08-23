@@ -43,7 +43,9 @@ var quoteStyle  = `
 }
 
 ::-moz-selection {
-  background: var(--selection);
+  .quoteback-container {
+    background: var(--selection);
+  }
 }
 
 ::selection {
