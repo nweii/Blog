@@ -7,6 +7,7 @@ title: Tags
     Tags
 </h1>
 
+<div class="page-content">
 {% for tag in collections.tagList %}
 <span>
     <a href="/tags/{{ tag }}">
@@ -16,3 +17,4 @@ title: Tags
     </a>
 </span>
 {% endfor %}
+</div>
