@@ -57,7 +57,7 @@ David Ehrlich for IndieWire" cite="https://www.indiewire.com/2022/02/uncharted-m
 <footer><cite><a href="" target="_blank"></a></cite></footer>
 </blockquote>
 
-Blockbusters do not need to be deep or profound. But even with a mega-budget funding, state-of-the-art crews, and audience research, they still fall emotionally flat. Neglecting to optimize for these less-measurable things misses out on a chance for deeper, more human “engagement.”
+Blockbusters do not need to be deep or profound. But even with mega-budget funding, state-of-the-art crews, and audience research, they still fall emotionally flat. Neglecting to optimize for these less-measurable things misses out on a chance for a deeper, more human kind of  “engagement.”
 
 Likewise, here’s [Braden Kowitz](https://www.wired.com/2013/11/design-world-stop-fighting-over-data-vs-instinct/), design partner at Google Ventures, explaining a decision to preserve brand quality by stepping back from optimizing a checkout button for attention:
 <blockquote class="quoteback" darkmode="" data-title="Should Tech Designers Go With Their Guts — Or the Data?" data-author="Braden Kowitz @Wired" cite="https://www.wired.com/2013/11/design-world-stop-fighting-over-data-vs-instinct/">
