@@ -36,7 +36,7 @@ Ironically, those emotional qualities are what people ought to understand before
 
 An experience optimized for “engagement,” clicks, attention, or profit does not guarantee an experience that is fun, nurturing, or insightful (ex. [Facebook](https://www.technologyreview.com/2021/03/11/1020600/facebook-responsible-ai-misinformation/)^[Regarding the misinformation issue: Facebook’s engagement optimization does appeal to junk-food level feelings (anger, indignance, shock, surprise), but it’s not the kind of enriching emotion I’m trying to discuss here (read on).]).
 
-The entertainment industry faces a similar imbalance. It’s remarkable how much the discourse about the metrics-driven sterilization of digital design (for engagement, clicks, what have you) parallels that of movies (for profit and mass appeal). 
+The entertainment industry faces a similar imbalance. It’s remarkable how much the discourse about the metrics-driven sterilization of digital design parallels that of movies.
 
 Martin Scorsese, in a [viral critique of Marvel films](https://www.nytimes.com/2019/11/04/opinion/martin-scorsese-marvel.html): ^[[Another example](https://twitter.com/zei_squirrel/status/1561288776055406595?s=12&t=IpeifXFOa_ZIPurOJ-5XLQ): George Lucas commenting on this re: Star Wars]
 <blockquote class="quoteback" darkmode="" data-title="I Said Marvel Movies Aren’t Cinema. Let Me Explain." data-author="Martin Scorsese @NYTimes" cite="https://www.nytimes.com/2019/11/04/opinion/martin-scorsese-marvel.html">
