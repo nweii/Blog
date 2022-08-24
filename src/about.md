@@ -30,10 +30,12 @@ If you want updates from this page, you can subscribe to the [RSS feed](/feed.xm
 Saved from [Raindrop](https://raindrop.io/).
 <iframe style="border: 0; width: 100%; height: 450px;" allowfullscreen frameborder="0" src="https://raindrop.io/nathancheng/saved-26498453/embed/theme=auto&hide=excerpt&search=%E2%9D%A4%EF%B8%8F&sort=-created" class="rounded-lg shadow-sm"></iframe>
 
-## Inspirations for this blog
+## Behind this blog
 - Tom Critchlow, "[Blogging Streaks & Freaks](https://tomcritchlow.com/2022/05/20/streaks/)"
 - Gleb Posobin's [Tweet](https://twitter.com/posobin/status/1091156574993870849)
 - Matt Webb's "[15 rules for blogging](https://interconnected.org/home/2020/09/10/streak)"
 - Jim Nielsen, "[The OG Social Network: Other People’s Websites](https://blog.jim-nielsen.com/2022/other-peoples-websites/)"
 - Chase McCoy, "[Crayons, craft paper, and CSS](https://chasem.co/2022/06/crayons-and-css)"
+
+Making this blog was my first time coding a site from scratch. I built it with [Eleventy](https://www.11ty.dev/) and [Tailwind CSS](https://tailwindcss.com/), along with [Github](https://github.com/) for [hosting](https://github.com/nweii/Blog) and [Vercel](https://vercel.com) for deployment.
 </div>
