@@ -28,4 +28,4 @@ In that sense, offshoots like fan wikis continue Wikipedia’s spirit of special
 <footer>Condé Nast<cite> <a href="https://www.wired.com/story/wikipedia-online-encyclopedia-best-place-internet/">https://www.wired.com/story/wikipedia-online-encyclopedia-best-place-internet/</a></cite></footer>
 </blockquote>
 
-There’s a necessary tension between moderation and public interactivity, and it’s interesting to see how changing that balance on different executions of the Wikipedia concept can allow for various  web subcultures to thrive.
+There's a necessary tension between moderation and public interactivity, and it's interesting to see how different executions of this balance on Wikipedia variants can allow for new web subcultures to thrive.
