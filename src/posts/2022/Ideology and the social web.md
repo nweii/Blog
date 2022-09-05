@@ -2,6 +2,7 @@
 title: Ideology & the social web
 date: 2022-08-04
 published: true
+description: Some thoughts on the way we talk about social media. It's easy to overlook the role that trial and happenstance have played in the digital paradigms we take for granted today. If we think of social media as a form of ideology, we can better appreciate that things don't need to stay this way. 
 tags:
 - platforms
 - tech
