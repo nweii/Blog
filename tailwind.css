@@ -132,10 +132,12 @@ html {
 
   background: var(--noise), var(--gradient);
   background-attachment: scroll, fixed;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
 }
 
-@media (hover: none) {
-  .bg-noise {
-    background-attachment: scroll, initial;
-  }
+.bg-noise-mobile {
+  
+
 }
