@@ -7,5 +7,6 @@
     "sitemap": {
         "changefreq": "weekly",
         "priority": "0.75"
-    }
+    },
+    "ogType": "article"
 }

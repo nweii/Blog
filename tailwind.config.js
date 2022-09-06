@@ -59,7 +59,7 @@ module.exports = {
             '--tw-prose-invert-links': theme('colors.stone.50 / 98%'),
             '--tw-prose-invert-bold': theme('colors.stone.50 / 98%'),
             '--tw-prose-invert-counters': theme('colors.stone.50 / 75%'),
-            '--tw-prose-invert-bullets': theme('colors.stone.100 / 35%'),
+            '--tw-prose-invert-bullets': theme('colors.stone.100 / 40%'),
             '--tw-prose-invert-hr': theme('colors.stone.100 / 25%'),
             '--tw-prose-invert-quotes': theme('colors.stone.50 / 80%'),
             '--tw-prose-invert-quote-borders': theme('colors.stone.100 / 25%'),
