@@ -133,3 +133,9 @@ html {
   background: var(--noise), var(--gradient);
   background-attachment: scroll, fixed;
 }
+
+@media (hover: none) {
+  .bg-noise {
+    background-attachment: scroll, initial;
+  }
+}
