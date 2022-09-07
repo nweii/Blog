@@ -2,13 +2,24 @@
   <div class="hidden md:block basis-56">
   </div>
   <div class="float-left px-2 pb-9 w-full md:w-[70%] flex-grow md:max-w-screen-md flex flex-row gap-4 justify-between items-end">
-    <div class="flex flex-col flex-grow space-y-2">
+    <div class="flex flex-col flex-grow space-y-4">
+      <ul class="md:hidden text-sm text-stone-500 dark:text-stone-50/[.80] font-medium flex flex-wrap gap-y-2 gap-5 overflow-auto">
+        <li class="{{'opacity-50 hover:translate-y-0' if page.url == "/"
+       else 'link-hover'}}" "><a href=" /">Recent</a></li>
+        <li class="{{'opacity-50 hover:translate-y-0' if '/archive' in page.url
+       else 'link-hover'}}" "><a href=" /archive">Archive</a></li>
+        <li class="{{'opacity-50 hover:translate-y-0' if '/about' in page.url
+       else 'link-hover'}}"><a href="/about">About</a></li>
+        <li class="{{'opacity-50 hover:translate-y-0' if '/tags' in page.url
+       else 'link-hover'}}"><a href="/tags">Tags</a></li>
+        <li class="link-hover">
+          <a href="{{metadata.portfolio}}" target="_blank">Work<sup class="opacity-75">↗</sup></a>
+        </li>
+      </ul>
       <ul class="font-medium text-sm text-stone-500 dark:text-stone-50/[.80] flex flex-row flex-wrap gap-4 gap-y-1">
         <li class="link-hover"><a href="mailto:{{metadata.email}}" target="_blank">Email</a></li>
-        <li class="link-hover"><a href="{{metadata.portfolio}}" target="_blank">Portfolio</a></li>
         <li class="link-hover"><a href="{{metadata.cv}}" target="_blank">CV</a></li>
         <li class="link-hover"><a href="{{metadata.linkedin}}" target="_blank">LinkedIn</a></li>
-        <li class="link-hover"><a href="{{metadata.letterboxd}}" target="_blank">Letterboxd</a></li>
         <li class="link-hover"><a href="/feed.xml" target="_blank">RSS</a></li>
       </ul>
       <p class="text-sm text-stone-500 dark:text-stone-50/[.80]">
@@ -16,10 +27,10 @@
       </p>
     </div>
     <svg width="42" viewBox="0 0 621 625" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path class="fill-stone-600 dark:fill-stone-50/[.80]" d="M0.608398 155.377C0.608398 69.8037 69.9793 0.432892 155.553 0.432892C241.126 0.432892 310.497 69.8037 310.497 155.377C310.497 240.95 241.126 310.321 155.553 310.321C69.9793 310.321 0.608398 240.95 0.608398 155.377Z" fill="black"/>
-      <path class="stroke-stone-600 dark:stroke-stone-50/[.80]" d="M59.1725 498.353C59.1725 461.896 88.7262 432.342 125.183 432.342C161.639 432.342 191.192 461.896 191.192 498.353C191.192 534.809 161.639 564.362 125.183 564.362C88.726 564.362 59.1725 534.809 59.1725 498.353Z" stroke="black" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
-      <path class="stroke-stone-600 dark:stroke-stone-50/[.80]" d="M431.206 124.885C431.206 88.4286 460.76 58.8749 497.216 58.8749C533.673 58.8749 563.226 88.4284 563.226 124.885C563.226 161.342 533.673 190.895 497.216 190.895C460.76 190.895 431.206 161.342 431.206 124.885Z" stroke="black" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
-      <path class="fill-stone-600 dark:fill-stone-50/[.80]" d="M311 469.944C311 384.371 380.371 315 465.944 315C551.518 315 620.889 384.371 620.889 469.944C620.889 555.518 551.518 624.888 465.944 624.888C380.371 624.888 311 555.518 311 469.944Z" fill="black"/>
+      <path class="fill-stone-600 dark:fill-stone-50/[.80]" d="M0.608398 155.377C0.608398 69.8037 69.9793 0.432892 155.553 0.432892C241.126 0.432892 310.497 69.8037 310.497 155.377C310.497 240.95 241.126 310.321 155.553 310.321C69.9793 310.321 0.608398 240.95 0.608398 155.377Z" fill="black" />
+      <path class="stroke-stone-600 dark:stroke-stone-50/[.80]" d="M59.1725 498.353C59.1725 461.896 88.7262 432.342 125.183 432.342C161.639 432.342 191.192 461.896 191.192 498.353C191.192 534.809 161.639 564.362 125.183 564.362C88.726 564.362 59.1725 534.809 59.1725 498.353Z" stroke="black" stroke-width="32" stroke-linecap="round" stroke-linejoin="round" />
+      <path class="stroke-stone-600 dark:stroke-stone-50/[.80]" d="M431.206 124.885C431.206 88.4286 460.76 58.8749 497.216 58.8749C533.673 58.8749 563.226 88.4284 563.226 124.885C563.226 161.342 533.673 190.895 497.216 190.895C460.76 190.895 431.206 161.342 431.206 124.885Z" stroke="black" stroke-width="32" stroke-linecap="round" stroke-linejoin="round" />
+      <path class="fill-stone-600 dark:fill-stone-50/[.80]" d="M311 469.944C311 384.371 380.371 315 465.944 315C551.518 315 620.889 384.371 620.889 469.944C620.889 555.518 551.518 624.888 465.944 624.888C380.371 624.888 311 555.518 311 469.944Z" fill="black" />
     </svg>
   </div>
 </footer>
