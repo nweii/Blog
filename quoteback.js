@@ -2,7 +2,7 @@ var editSVG = `<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns
 var quoteStyle  = `
 .quoteback-container {
   --containerWidth: 70ch;
-  --background-color: white;
+  --background-color: var(--qb-bg);
   --border-color-normal: var(--border);
   --border-color-hover: var(--border-hover);
   --author-color: var(--strong);
