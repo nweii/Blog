@@ -12,7 +12,7 @@ I'm an early career visual designer who's interested in emerging technology, cod
 
 Please feel free to reach out to me at [{{metadata.email}}](mailto:{{metadata.email}}). 
 
-If you want updates from this page, you can subscribe to the [RSS feed](/feed.xml) using a feed reader ([What's a feed?](https://aboutfeeds.com/)).
+If you want updates from this page, you can subscribe to the [Twitter profile](https://twitter.com/nthnblg), [Medium profile](https://nthnchng.medium.com/), or the [RSS feed](/feed.xml) using a feed reader ([What is that?](https://aboutfeeds.com/)).
 
 ## Other places you can find me
 - [Letterboxd]({{metadata.letterboxd}})
