@@ -12,7 +12,7 @@ html {
   --text-sm: theme(fontSize.sm);
   --text-base: theme(fontSize.base);
   --text-lg: theme(fontSize.lg);
-  --qb-bg: theme(colors.stone.50 / 90%);
+  --qb-bg: theme(colors.stone.50 / 80%);
   --qb-bg-dark: theme(colors.stone.800);
   --strong: theme(colors.stone.900 / 80%);
   --strong-dark: theme(colors.stone.50 / 80%);
