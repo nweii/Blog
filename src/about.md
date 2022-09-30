@@ -1,6 +1,7 @@
 ---
 layout: main
 title: About
+description: I'm an early career visual designer who's interested in emerging technology, code, interfaces, and visual storytelling.
 ---
 
 <div class="post-content mb-24">
@@ -27,7 +28,9 @@ If you want updates from this page, you can subscribe to the [Twitter profile](h
 </div>
 
 ## Online Reading
-Saved from [Raindrop](https://raindrop.io/).
+Saved into [Raindrop](https://raindrop.io/). 
+
+I discover a lot of these from Twitter, other pages, or [my blogroll](/blogroll).
 <iframe style="border: 0; width: 100%; height: 450px;" allowfullscreen frameborder="0" src="https://raindrop.io/nathancheng/saved-26498453/embed/theme=auto&hide=excerpt&search=%E2%9D%A4%EF%B8%8F&sort=-created" class="rounded-lg shadow-sm"></iframe>
 
 ## Behind this blog
