@@ -5,7 +5,8 @@ description: Website feeds I read regularly.
 ---
 <div class="post-content mb-24">
 <p class="date">Last updated 2022-09-30</p>
-Website feeds I read regularly.  
+
+Website feeds I read regularly using [Feedly](https://feedly.com/) and [Reeder](https://www.reederapp.com/) (learn more about RSS feeds [here](https://aboutfeeds.com/)).
 
 ## Table of Contents
 Jump to a section. Some of these have overlapping links.
