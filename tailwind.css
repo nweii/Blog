@@ -100,6 +100,12 @@ html {
     prose-img:rounded-md prose-img:shadow 
     prose-ul:list-outside prose-blockquote:not-italic;
   }
+  #twitter-widget-0 {
+    @apply shadow rounded-xl mb-4
+    hover:shadow-xl hover:-translate-y-[3px] 
+    [@media(hover:none)]:shadow-lg
+    transition ease-in-out;
+  }
 }
 
 .post-content > .footnote-ref {
