@@ -15,7 +15,7 @@ Please feel free to reach out to me at [{{metadata.email}}](mailto:{{metadata.em
 
 If you want updates from this page, you can subscribe to the [Twitter profile](https://twitter.com/nthnblg), [Medium profile](https://nthnchng.medium.com/), or the [RSS feed](/feed.xml) using a feed reader ([What is that?](https://aboutfeeds.com/)).
 
-## Other places you can find me
+## Other places
 - [Letterboxd]({{metadata.letterboxd}})
 - [Spotify](https://open.spotify.com/user/1237353257?si=08574652c9d4437b)
 - [Portfolio]({{metadata.portfolio}})
@@ -26,12 +26,6 @@ If you want updates from this page, you can subscribe to the [Twitter profile](h
 	<figcaption>Portrait by Betsey Carroll.</figcaption>
 </figure>
 </div>
-
-## Online Reading
-Saved into [Raindrop](https://raindrop.io/). 
-
-I discover a lot of these from Twitter, other pages, or [my blogroll](/blogroll).
-<iframe style="border: 0; width: 100%; height: 450px;" allowfullscreen frameborder="0" src="https://raindrop.io/nathancheng/saved-26498453/embed/theme=auto&hide=excerpt&search=%E2%9D%A4%EF%B8%8F&sort=-created" class="rounded-lg shadow-sm"></iframe>
 
 ## Behind this blog
 - Tom Critchlow, "[Blogging Streaks & Freaks](https://tomcritchlow.com/2022/05/20/streaks/)"
