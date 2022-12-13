@@ -1,15 +1,4 @@
 {
-	// "headers": [
-	// 	{
-	// 		"source": "assets/fonts/(.*)",
-	// 		"headers": [
-	// 			{
-	// 				"key": "Cache-Control",
-	// 				"value": "public, max-age=31536000, immutable"
-	// 			}
-	// 		]
-	// 	}
-	// ]
 	"redirects": [
 		{ "source": "/2022/08/rethinking-our-discourse-about-the-social-web", "destination": "/2022/08/ideology-and-the-social-web", "permanent": true }
 	]
