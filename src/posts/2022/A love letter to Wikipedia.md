@@ -16,7 +16,6 @@ This [deep dive by WIRED](https://www.wired.com/story/wikipedia-online-encyclope
 
 <blockquote class="quoteback" darkmode="" data-title="Wikipedia%20Is%20the%20Last%20Best%20Place%20on%20the%20Internet" data-author="Richard Cook @WIRED" cite="https://www.wired.com/story/wikipedia-online-encyclopedia-best-place-internet/">
 Like Instagram, Twitter, and Facebook, it broadcasts user-generated content. Unlike them, it makes its product de-personified, collaborative, and for the general good. More than an encyclopedia, Wikipedia has become a community, a library, a constitution, an experiment, a political manifesto—the closest thing there is to an online public square. It is one of the few remaining places that retains the faintly utopian glow of the early World Wide Web. A free encyclopedia encompassing the whole of human knowledge, written almost entirely by unpaid volunteers: Can you believe <em>that</em> was the one that worked?
-<footer>Condé Nast<cite> <a href="https://www.wired.com/story/wikipedia-online-encyclopedia-best-place-internet/">https://www.wired.com/story/wikipedia-online-encyclopedia-best-place-internet/</a></cite></footer>
 </blockquote>
 
 It has its [problems](https://en.wikipedia.org/wiki/Criticism_of_Wikipedia), but Wikipedia does often feel like the last bastion of good info on the internet. You can find in-depth coverage of nearly any topic quickly and without ads, paywalls, upsells, or fluff. 
@@ -26,7 +25,6 @@ That’s not necessarily the case for fan-made “Wikis”^[Typically hosted on 
 In that sense, offshoots like fan wikis continue Wikipedia’s spirit of specialized self-indulgence:
 <blockquote class="quoteback" darkmode="" data-title="Wikipedia%20Is%20the%20Last%20Best%20Place%20on%20the%20Internet" data-author="Richard Cook @WIRED" cite="https://www.wired.com/story/wikipedia-online-encyclopedia-best-place-internet/">
 […] Wikipedia is built on the personal interests and idiosyncrasies of its contributors; in fact, without getting gooey, you could even say it is built on love. Editors' passions can drive the site deep into inconsequential territory—exhaustive detailing of dozens of different kinds of embroidery software, lists dedicated to bespectacled baseball players, a brief but moving biographical sketch of Khanzir, the only pig in Afghanistan. No knowledge is truly useless, but at its best, Wikipedia weds this ranging interest to the kind of pertinence where Larry David's “Pretty, pretty good!” is given as an example of rhetorical epizeuxis. At these moments, it can feel like one of the few parts of the internet that is improving.
-<footer>Condé Nast<cite> <a href="https://www.wired.com/story/wikipedia-online-encyclopedia-best-place-internet/">https://www.wired.com/story/wikipedia-online-encyclopedia-best-place-internet/</a></cite></footer>
 </blockquote>
 
 There's a necessary tension between moderation and public interactivity, and it's interesting to see how different executions of this balance on Wikipedia variants can allow for new web subcultures to thrive.
