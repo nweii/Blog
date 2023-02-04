@@ -1,5 +1,5 @@
 var editSVG = `<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.42852 8.1826L3.83008 6.04181C3.84249 5.9758 3.87452 5.91507 3.92201 5.86756L9.55515 0.234417C9.97431 -0.184732 10.7881 -0.0275712 11.408 0.592253C12.0277 1.21199 12.1848 2.02581 11.7657 2.44496L6.13255 8.0781C6.08504 8.12559 6.02431 8.15763 5.9583 8.17004L3.81761 8.5717C3.76434 8.58168 3.70943 8.57853 3.65765 8.56251C3.60587 8.54649 3.55878 8.51809 3.52045 8.47976C3.48212 8.44143 3.45372 8.39434 3.4377 8.34256C3.42168 8.29078 3.41853 8.23588 3.42852 8.1826ZM10.0266 0.705828L4.46633 6.26605L4.17359 7.82661L5.73407 7.53378L11.2943 1.97355C11.4042 1.86366 11.3175 1.44465 10.9365 1.06366C10.5555 0.682577 10.1364 0.59594 10.0266 0.705828ZM10.2326 12H0.333333C0.289558 12 0.246212 11.9914 0.205768 11.9746C0.165325 11.9579 0.128577 11.9333 0.0976236 11.9024C0.0666701 11.8714 0.0421171 11.8347 0.0253667 11.7942C0.00861633 11.7538 -3.32535e-06 11.7104 9.62344e-10 11.6667V1.76752C-3.32535e-06 1.72374 0.00861633 1.68039 0.0253667 1.63995C0.0421171 1.59951 0.0666701 1.56276 0.0976236 1.53181C0.128577 1.50085 0.165325 1.4763 0.205768 1.45955C0.246212 1.4428 0.289558 1.43418 0.333333 1.43418H5.7154L5.04872 2.10085H0.666667V11.3333H9.89922V6.95119L10.5659 6.28453V11.6667C10.5659 11.7104 10.5573 11.7538 10.5405 11.7942C10.5238 11.8347 10.4992 11.8714 10.4683 11.9024C10.4373 11.9333 10.4006 11.9579 10.3601 11.9746C10.3197 11.9914 10.2763 12 10.2326 12Z" fill="#9DB8BF"/></svg>`
-var quoteStyle  = `
+var quoteStyle = `
 .quoteback-container {
   --containerWidth: 70ch;
   --background-color: var(--qb-bg);
@@ -264,38 +264,36 @@ var quoteStyle  = `
 }
 `
 
-document.addEventListener("DOMContentLoaded", function(){
-    
-    // get all our classed blockquote components
-    var index = document.querySelectorAll(".quoteback");
+document.addEventListener("DOMContentLoaded", function() {
 
-    for(var item=0; item < index.length; item++ ){   
-      // remove the footer element
-      console.log(index[item]);
-      index[item].removeChild(index[item].querySelector("footer"));
-      
-      var text = index[item].innerHTML;
+  // get all our classed blockquote components
+  var index = document.querySelectorAll(".quoteback");
 
-      var url = index[item].cite;
-      var author = index[item].getAttribute("data-author");
-      var title = index[item].getAttribute("data-title");
-      var favicon = `https://s2.googleusercontent.com/s2/favicons?domain_url=${url}&sz=64`
-      var darkmode = index[item].getAttribute("darkmode");
+  for (var item = 0; item < index.length; item++) {
+    console.log(index[item]);
 
-      // create a new component with that data
-      var component = `
+    var text = index[item].innerHTML;
+
+    var url = index[item].cite;
+    var author = index[item].getAttribute("data-author");
+    var title = index[item].getAttribute("data-title");
+    var favicon = `https://s2.googleusercontent.com/s2/favicons?domain_url=${url}&sz=64`
+    var darkmode = index[item].getAttribute("darkmode");
+
+    // create a new component with that data
+    var component = `
       <quoteback-component darkmode="${darkmode}" url="${url}" text="${encodeURIComponent(text)}" author="${author}" title="${title}" favicon="${favicon}"> 
       </quoteback-component>    
       `;
-      var newEl = document.createElement('div');
-      newEl.innerHTML = component;
-      
+    var newEl = document.createElement('div');
+    newEl.innerHTML = component;
 
-      // replace the original blockquote with our quoteback seed component
-      index[item].parentNode.replaceChild(newEl, index[item]);
 
-      var template = document.createElement('template');
-      template.innerHTML=`
+    // replace the original blockquote with our quoteback seed component
+    index[item].parentNode.replaceChild(newEl, index[item]);
+
+    var template = document.createElement('template');
+    template.innerHTML = `
       <style>${quoteStyle}</style>
       <div class="quoteback-container" role="quotation" aria-labelledby="quoteback-author" tabindex="0">
         <div id="quoteback-parent" class="quoteback-parent">
@@ -313,63 +311,63 @@ document.addEventListener("DOMContentLoaded", function(){
         </div>
       </div>`;
 
-      class QuoteBack extends HTMLElement {
-        constructor(){  
-          super();
-          this.attachShadow({mode: 'open'});
-          this.shadowRoot.appendChild(template.content.cloneNode(true));
-          
-          this.text = decodeURIComponent(this.getAttribute('text'));
-          this.author = this.getAttribute('author');
-          this.title = decodeURIComponent(this.getAttribute('title')); 
-          this.url = this.getAttribute('url')
-          this.favicon = this.getAttribute('favicon');
-          this.editable = this.getAttribute('editable');
-          this.darkmode = this.getAttribute('darkmode')
+    class QuoteBack extends HTMLElement {
+      constructor() {
+        super();
+        this.attachShadow({ mode: 'open' });
+        this.shadowRoot.appendChild(template.content.cloneNode(true));
 
+        this.text = decodeURIComponent(this.getAttribute('text'));
+        this.author = this.getAttribute('author');
+        this.title = decodeURIComponent(this.getAttribute('title'));
+        this.url = this.getAttribute('url')
+        this.favicon = this.getAttribute('favicon');
+        this.editable = this.getAttribute('editable');
+        this.darkmode = this.getAttribute('darkmode')
+
+      };
+
+      connectedCallback() {
+        console.info('connected');
+        if (this.editable == "true") {
+          this.shadowRoot.querySelector('.quoteback-author').setAttribute("contenteditable", true);
+          this.shadowRoot.querySelector('.quoteback-title').setAttribute("contenteditable", true);
+        }
+
+        if (this.darkmode == "true") {
+          this.shadowRoot.querySelector('.quoteback-container').classList += " dark-theme";
+        }
+
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          this.shadowRoot.querySelector('.quoteback-container').classList += " dark-theme";
+        }
+
+        this.shadowRoot.querySelector('.quoteback-content').innerHTML = decodeURIComponent(this.getAttribute('text'));
+        this.shadowRoot.querySelector('.mini-favicon').src = this.getAttribute('favicon');
+
+        this.shadowRoot.querySelector('.quoteback-author').innerHTML = this.getAttribute('author');
+        this.shadowRoot.querySelector('.quoteback-author').setAttribute("aria-label", "quote by " + this.getAttribute('author'));
+
+        this.shadowRoot.querySelector('.quoteback-title').innerHTML = decodeURIComponent(this.getAttribute('title'));
+        this.shadowRoot.querySelector('.quoteback-title').setAttribute("aria-label", "title: " + decodeURIComponent(this.getAttribute('title')));
+
+        this.shadowRoot.querySelector('.quoteback-arrow').href = this.getAttribute('url');
+
+        if (this.getAttribute('editable') == "true") {
+          this.shadowRoot.querySelector('.quoteback-author').setAttribute("contenteditable", true);
+          this.shadowRoot.querySelector('.quoteback-title').setAttribute("contenteditable", true);
         };
+      };
 
-        connectedCallback() {
-          console.info( 'connected' );
-          if(this.editable == "true"){
-            this.shadowRoot.querySelector('.quoteback-author').setAttribute("contenteditable", true);
-            this.shadowRoot.querySelector('.quoteback-title').setAttribute("contenteditable", true);
-          }
-
-          if(this.darkmode == "true"){
-            this.shadowRoot.querySelector('.quoteback-container').classList += " dark-theme";
-          }
-          
-          if(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches){
-            this.shadowRoot.querySelector('.quoteback-container').classList += " dark-theme";
-          }
-                      
-          this.shadowRoot.querySelector('.quoteback-content').innerHTML = decodeURIComponent(this.getAttribute('text'));
-          this.shadowRoot.querySelector('.mini-favicon').src = this.getAttribute('favicon');
-
-          this.shadowRoot.querySelector('.quoteback-author').innerHTML = this.getAttribute('author');
-          this.shadowRoot.querySelector('.quoteback-author').setAttribute("aria-label", "quote by " + this.getAttribute('author'));
-
-          this.shadowRoot.querySelector('.quoteback-title').innerHTML = decodeURIComponent(this.getAttribute('title'));
-          this.shadowRoot.querySelector('.quoteback-title').setAttribute("aria-label", "title: " + decodeURIComponent(this.getAttribute('title')));
-
-          this.shadowRoot.querySelector('.quoteback-arrow').href = this.getAttribute('url');
-
-          if(this.getAttribute('editable') == "true"){
-            this.shadowRoot.querySelector('.quoteback-author').setAttribute("contenteditable", true);
-            this.shadowRoot.querySelector('.quoteback-title').setAttribute("contenteditable", true);
-          };	
-        };                                      
-
-      }
-
-      // if quoteback-component is already defined
-      if (customElements.get('quoteback-component')){
-          null;
-      }else{
-          window.customElements.define('quoteback-component', QuoteBack)  
-      }
     }
+
+    // if quoteback-component is already defined
+    if (customElements.get('quoteback-component')) {
+      null;
+    } else {
+      window.customElements.define('quoteback-component', QuoteBack)
+    }
+  }
 });
 
 // here's some nonsens
