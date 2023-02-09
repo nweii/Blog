@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					<div id="quoteback-content" class="prose prose-stone px-4 py-3.5 leading-relaxed text-stone-900/80 prose-p:mb-1 prose-a:underline prose-a:underline-offset-2 prose-a:transition-opacity hover:prose-a:opacity-50 hover:prose-a:cursor-pointer prose-blockquote:mt-0 prose-blockquote:mb-1 prose-ol:mt-0 prose-ul:mt-0 dark:prose-invert dark:text-stone-50/80 dark:hover:prose-a:text-emerald-300"></div>
 				</div>
 				<div id="quoteback-head" class="flex flex-row flex-nowrap items-stretch justify-start border-t border-stone-300 pl-4 dark:border-stone-50/[.12]">
-					<div id="quoteback-avatar" class="!min-w-10 relative my-2 mx-0 w-5 flex-none rounded-full border-stone-300 dark:border-stone-50/[.12] max-[336px]:w-4 max-[304px]:hidden"><img id="mini-favicon" class="max-w-5 absolute inset-y-0 left-0 m-auto aspect-square w-full rounded-sm md:w-8" alt="source website favicon" src="" /></div>
+					<div id="quoteback-avatar" class="!min-w-10 relative my-2 mx-0 w-5 flex-none rounded-full border-stone-300 dark:border-stone-50/[.12] max-[336px]:w-4 max-[304px]:hidden"><img id="mini-favicon" class="max-w-5 absolute inset-y-0 left-0 m-auto aspect-square w-full rounded-sm" alt="source website favicon" src="" /></div>
 					<div id="quoteback-metadata" class="ml-3 flex min-w-0 shrink items-center max-[304px]:ml-0">
 						<div id="metadata-inner" class="my-3 w-full max-w-[525px] pr-2 text-sm font-semibold leading-tight line-clamp-2">
 							<div aria-label="" id="quoteback-author" class="mb-0.5 text-stone-900/80 dark:text-stone-50/80"></div>
