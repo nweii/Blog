@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let template = document.createElement("template");
     template.innerHTML = `
 			<link href="${css}" rel="stylesheet">
-      <div id="quoteback-container" class="mb-6 max-w-[70ch] rounded-lg border border-solid border-stone-300/80 bg-stone-50/80 shadow-sm transition duration-300 ease-in-out hover:-translate-y-1 hover:shadow-xl dark:border-stone-50/10 dark:bg-stone-800/90 dark:shadow-[0_1px_2px_0_rgba(0,0,0,0.2)] dark:hover:shadow-[0_20px_25px_-5px_rgba(0,0,0,0.15),0_8px_10px_-6px_rgba(0,0,0,0.15)] [@media(hover:none)]:shadow-lg" role="quotation" aria-labelledby="quoteback-author" tabindex="0">
+      <div id="quoteback-container" class="mb-6 max-w-prose rounded-lg border border-solid border-stone-300/80 bg-stone-50/80 shadow-sm transition duration-300 ease-in-out hover:-translate-y-1 hover:shadow-xl dark:border-stone-50/10 dark:bg-stone-800/90 dark:shadow-[0_1px_2px_0_rgba(0,0,0,0.2)] dark:hover:shadow-[0_20px_25px_-5px_rgba(0,0,0,0.15),0_8px_10px_-6px_rgba(0,0,0,0.15)] [@media(hover:none)]:shadow-lg" role="quotation" aria-labelledby="quoteback-author" tabindex="0">
         <div id="quoteback-parent" class="relative box-border w-full overflow-hidden">
           <div id="quoteback-content" class="prose prose-stone px-4 py-3 leading-relaxed text-stone-900/80 prose-p:mb-1 prose-a:underline prose-a:underline-offset-2 prose-a:transition-opacity hover:prose-a:cursor-pointer hover:prose-a:opacity-50 prose-blockquote:mt-0 prose-blockquote:mb-1 prose-ol:mt-0 prose-ul:mt-0 dark:prose-invert dark:text-stone-50/80 dark:hover:prose-a:text-emerald-300"></div>
         </div>
