@@ -6,28 +6,6 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-:root {
-  /* Make tailwind styles available to quotebacks stylesheet */
-  --system-fonts: theme(fontFamily.sans);
-  --text-sm: theme(fontSize.sm);
-  --text-base: theme(fontSize.base);
-  --text-lg: theme(fontSize.lg);
-  --qb-bg: theme(colors.stone.50 / 80%);
-  --qb-bg-dark: theme(colors.stone.800);
-  --strong: theme(colors.stone.900 / 80%);
-  --strong-dark: theme(colors.stone.50 / 80%);
-  --faded: theme(colors.stone.500);
-  --faded-dark: theme(colors.stone.50 / 70%);
-  --link: theme(colors.emerald.500);
-  --link-dark: theme(colors.emerald.300);
-  --border: theme(colors.stone.300);
-  --border-hover: theme(colors.stone.300);
-  --border-dark: theme(colors.stone.50 / 12%);
-  --border-hover-dark: theme(colors.stone.50 / 12%);
-  --sel: theme(colors.emerald.100);
-  --sel-dark: theme(colors.emerald.700);
-}
-
 @layer base {
   @import url('https://rsms.me/inter/inter.css');
   @import url('../fonts/DrukTextWide-Medium.woff');
