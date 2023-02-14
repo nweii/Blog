@@ -34,5 +34,5 @@ If you want updates from this page, you can subscribe to the [Twitter profile](h
 - Jim Nielsen, "[The OG Social Network: Other People’s Websites](https://blog.jim-nielsen.com/2022/other-peoples-websites/)"
 - Chase McCoy, "[Crayons, craft paper, and CSS](https://chasem.co/2022/06/crayons-and-css)"
 
-Making this blog was my first time coding a site from scratch. I built it with [Eleventy](https://www.11ty.dev/) and [Tailwind CSS](https://tailwindcss.com/), along with [Github](https://github.com/) for [hosting](https://github.com/nweii/Blog) and [Vercel](https://vercel.com) for deployment.
+Making this blog was my first time coding a site from scratch. I built it with [Eleventy](https://www.11ty.dev/) and [Tailwind CSS](https://tailwindcss.com/), along with [Github for hosting](https://github.com/nweii/Blog) and [Vercel](https://vercel.com) for deployment.
 </div>
