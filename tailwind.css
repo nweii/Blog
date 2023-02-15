@@ -102,6 +102,10 @@ html {
   @apply ml-1 text-stone-500 dark:text-stone-50/[.70];
 }
 
+.footnotes-sep {
+  @apply my-8;
+}
+
 .post-inFeed {
   @apply mb-28;
 }
