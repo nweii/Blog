@@ -12,7 +12,8 @@ tags:
 I originally planned on updating this website with new posts about twice a month, but that didn’t pan out. Probably for the following reasons:
 - **"Originality."** Self-imposed burden of needing to make everything I put online “original” or substantial
 - **General perfectionism**. Agonizing over whether any sentence was the best way to crystallize a particular idea
-- **Friction in posting**. I made this blog from scratch and add new posts here as Github commits. The workflow is a bit labor-intensive compared to tweeting.
+- **Friction in posting**. I made this blog from scratch and add new posts here as Github commits. The workflow is a bit labor-intensive compared to tweeting.  
+
 Until I learn enough of backend development that I can make a new CMS-driven blog, I’m probably not going to resolve the last point. But the first two are more addressable, and I think resolving them comes from a review of why I started this blog in the first place.  
 
 When I first made this site, I found this [post by Alexey Guzey](https://guzey.com/personal/why-have-a-blog/)  especially influential:
