@@ -1,8 +1,8 @@
 ---
 title: A love letter to Wikipedia
-date: 2022-08-19
-published: true
-description: A love letter to Wikipedia, hyperlink-driven internet wormholes, and the open internet.
+date: 2022-08-19 00:00:00 Z
+description: A love letter to Wikipedia, hyperlink-driven internet wormholes, and
+  the open internet.
 tags:
 - learning
 - platforms

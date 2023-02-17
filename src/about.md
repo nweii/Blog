@@ -1,7 +1,8 @@
 ---
-layout: main
 title: About
-description: I'm an early career visual designer who's interested in emerging technology, code, interfaces, and visual storytelling.
+layout: main
+description: I'm an early career visual designer who's interested in emerging technology,
+  code, interfaces, and visual storytelling.
 ---
 
 <div class="post-content mb-24">

@@ -1,7 +1,6 @@
 ---
 title: The Dynamic Island and AR Physics
-date: 2022-09-27
-published: true
+date: 2022-09-27 00:00:00 Z
 tags:
 - design
 - trends

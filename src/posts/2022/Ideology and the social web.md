@@ -1,14 +1,16 @@
 ---
 title: Ideology & the social web
-date: 2022-08-04
-published: true
-description: Some thoughts on the way we talk about social media. If we think of social media as a form of ideology, we can better appreciate that things don't need to stay this way. 
+date: 2022-08-04 00:00:00 Z
+description: Some thoughts on the way we talk about social media. If we think of social
+  media as a form of ideology, we can better appreciate that things don't need to
+  stay this way.
 tags:
 - platforms
 - tech
 - film
 - ideology
 ---
+
 This [e-flux essay on social media ideology](https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/) makes a few expansive arguments about what we consider when we think about the social web:
 <blockquote class="quoteback" darkmode="" data-title="On the Social Media Ideology - Journal #75" data-author="Geert Lovink - e-flux" cite="https://www.e-flux.com/journal/75/67166/on-the-social-media-ideology/">
 <p>Social networking is much more than just a dominant discourse. We need to go beyond text and images and include its software, interfaces, and networks that depend on a technical infrastructure consisting of offices and their consultants and cleaners, cables and data centers, working in close concert with the movements and habits of the connected billions. (...)</p>

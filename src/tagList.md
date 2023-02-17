@@ -1,13 +1,14 @@
 ---
+permalink: "/tags/{{ tag | slugify }}/"
 layout: main
 pagination:
   data: collections
   size: 1
   alias: tag
-permalink: /tags/{{ tag | slugify }}/
 eleventyComputed:
   title: "{{ tag }}"
----  
+---
+
 <h1 class="title-wide mb-6">
   Posts tagged <span class="ml-1 font-sans py-0.5 px-2 rounded-lg text-stone-900/[.48] dark:text-stone-50/[.55] border border-2 border-stone-200 dark:border-stone-50/[.10]">{{ tag }}</span>
 </h1>

@@ -1,10 +1,11 @@
 ---
 title: Biden's climate & healthcare bill
-date: 2022-08-09
+date: 2022-08-09 00:00:00 Z
 published: false
 tags:
 - politics
 ---
+
 Issac Saul, in this week's [Tangle newsletter](https://www.readtangle.com/) - [Senate passes Democrats' “Inflation Reduction Act”](https://www.readtangle.com/inflation-reduction-act/):
 <blockquote class="quoteback" darkmode="" data-title="Senate%20passes%20Democrats'%20'Inflation%20Reduction%20Act'." data-author="@TangleNews" cite="https://www.readtangle.com/inflation-reduction-act/">
 <p>[…] The image of a super-IRS going after wealthy corporations and rich billionaires who skirt tax laws is not the reality. Instead, the IRS usually spends its money where it is most efficient: Auditing the middle class and the most economically vulnerable taxpayers who can't afford teams of lawyers. According to The Washington Post, More than 4 in 10 of its audits in 2021 targeted recipients of the earned income tax credit, one of the country’s main anti-poverty measures.<br />

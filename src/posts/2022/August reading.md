@@ -1,8 +1,8 @@
 ---
 title: August reading
-date: 2022-09-06
-published: true
-description: Links I found interesting in August spanning public life, industry shifts, design, video games, and more. 
+date: 2022-09-06 00:00:00 Z
+description: Links I found interesting in August spanning public life, industry shifts,
+  design, video games, and more.
 tags:
 - links
 - business

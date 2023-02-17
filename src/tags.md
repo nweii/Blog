@@ -1,6 +1,6 @@
 ---
-layout: main
 title: Tags
+layout: main
 ---
 
 <h1 class="mb-6">

@@ -1,8 +1,9 @@
 ---
 title: Real “engagement” - Optimizing for feelings in design and revelation in films
-date: 2022-08-23
-published: true
-description: Yes, product designs & entertainment media need to make money, to be functional, and to be entertaining. But it’s a shame to leave it at that. Why should we care?
+date: 2022-08-23 00:00:00 Z
+description: Yes, product designs & entertainment media need to make money, to be
+  functional, and to be entertaining. But it’s a shame to leave it at that. Why should
+  we care?
 tags:
 - design
 - film

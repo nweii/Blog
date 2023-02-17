@@ -1,8 +1,7 @@
 ---
 title: Existing online - why I started this blog
+date: 2023-02-14 00:00:00 Z
 description: Thoughts on posting online and blogging more earnestly.
-date: 2023-02-14
-published: true
 tags:
 - writing
 - platforms
