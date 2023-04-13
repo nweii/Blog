@@ -1,12 +1,12 @@
 ---
 title: Ambient TV, Generational Semantics, and chatGPT
-date: 2023-04-12
-published: true
+date: 2023-04-12 00:00:00 Z
 tags:
 - film
 - AI
 - culture
 ---
+
 [Emily in Paris” and the Rise of Ambient TV](https://www.newyorker.com/culture/cultural-comment/emily-in-paris-and-the-rise-of-ambient-tv):
 <blockquote class="quoteback" cite="https://www.newyorker.com/culture/cultural-comment/emily-in-paris-and-the-rise-of-ambient-tv" data-author="Kyle Chayka for The New Yorker" data-title="‘Emily in Paris’ and the Rise of Ambient TV">
 “Ambient” denotes something that you don’t have to pay attention to in order to enjoy but which is still seductive enough to be compelling if you choose to do so momentarily. Like gentle New Age soundscapes, “Emily in Paris” is soothing, slow, and relatively monotonous, the dramatic moments too predetermined to really be dramatic. […] The shows are functionally screen savers, never demanding your attention; they do draw it, but only as much as a tabletop bouquet of flowers.  
