@@ -15,7 +15,7 @@ tags:
 </blockquote>
 
 
-[The Instrumentalist | Zadie Smith | The New York Review of Books](https://archive.ph/paWUE). On *[Tar](https://letterboxd.com/film/tar-2022/)*’s interesting lens on generational differences & evolving cultural semantics:
+[The Instrumentalist | Zadie Smith | The New York Review of Books](https://archive.is/gsGD3). On *[Tar](https://letterboxd.com/film/tar-2022/)*’s interesting lens on generational differences & evolving cultural semantics:
 <blockquote class="quoteback" cite="https://www.nybooks.com/articles/2023/01/19/the-instrumentalist-tar-todd-field-zadie-smith/" data-author="Zadie Smith for The New York Review of Books" data-title="The Instrumentalist | Zadie Smith">[…] if you grew up online, the negative attributes of individual humans are immediately disqualifying. The very phrase ad hominem has been rendered obsolete, almost incomprehensible. An argument that is directed against a person, rather than the position they are maintaining? Online a person is the position they’re maintaining and vice versa. Opinions are identities and identities are opinions. Unfollow!  
 	
 Every generation makes new rules. Every generation comes up against the persistent ethical failures of the human animal. But though there may be no permanent transformations in our emotional lives, there can be genuine reframings and new language and laws created to name and/or penalize the ways we tend to hurt each other, and this is a service each generation can perform for the one before.</blockquote>
