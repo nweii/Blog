@@ -1,12 +1,12 @@
 ---
 title: Privacy Semantics and the Ad Economy
-date: 2023-04-13
-published: true
+date: 2023-04-13 00:00:00 Z
 tags:
 - ads
 - privacy
 - internet
 ---
+
 [Privacy, ads and confusion — Benedict Evans](https://www.ben-evans.com/benedictevans/2021/8/27/understanding-privacy):
 <blockquote class="quoteback" cite="https://www.ben-evans.com/benedictevans/2021/8/27/understanding-privacy" data-author="Benedict Evans" data-title="Privacy, ads and confusion">  
 	
