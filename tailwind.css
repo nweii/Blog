@@ -15,6 +15,127 @@ html {
     font-weight: 700;
     font-display: swap;
   }
+  
+  @font-face {
+      font-family: 'Atlas Grotesk';
+      src: local('Atlas Grotesk Bold Italic'), local('AtlasGrotesk-BoldItalic'),
+          url('../fonts/AtlasGrotesk-BoldItalic.woff2') format('woff2'),
+          url('../fonts/AtlasGrotesk-BoldItalic.woff') format('woff');
+      font-weight: bold;
+      font-style: italic;
+      font-display: swap;
+  }
+  
+  @font-face {
+      font-family: 'Atlas Grotesk';
+      src: local('Atlas Grotesk Regular Italic'), local('AtlasGrotesk-RegularItalic'),
+          url('../fonts/AtlasGrotesk-RegularItalic.woff2') format('woff2'),
+          url('../fonts/AtlasGrotesk-RegularItalic.woff') format('woff');
+      font-weight: normal;
+      font-style: italic;
+      font-display: swap;
+  }
+  
+  @font-face {
+      font-family: 'Atlas Grotesk';
+      src: local('Atlas Grotesk Bold'), local('AtlasGrotesk-Bold'),
+          url('../fonts/AtlasGrotesk-Bold.woff2') format('woff2'),
+          url('../fonts/AtlasGrotesk-Bold.woff') format('woff');
+      font-weight: bold;
+      font-style: normal;
+      font-display: swap;
+  }
+  
+  @font-face {
+      font-family: 'Atlas Grotesk';
+      src: local('Atlas Grotesk Medium'), local('AtlasGrotesk-Medium'),
+          url('../fonts/AtlasGrotesk-Medium.woff2') format('woff2'),
+          url('../fonts/AtlasGrotesk-Medium.woff') format('woff');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+  }
+  
+  @font-face {
+      font-family: 'Atlas Grotesk';
+      src: local('Atlas Grotesk Regular'), local('AtlasGrotesk-Regular'),
+          url('../fonts/AtlasGrotesk-Regular.woff2') format('woff2'),
+          url('../fonts/AtlasGrotesk-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+  }
+  
+  @font-face {
+      font-family: 'Atlas Grotesk';
+      src: local('Atlas Grotesk Medium Italic'), local('AtlasGrotesk-MediumItalic'),
+          url('../fonts/AtlasGrotesk-MediumItalic.woff2') format('woff2'),
+          url('../fonts/AtlasGrotesk-MediumItalic.woff') format('woff');
+      font-weight: 500;
+      font-style: italic;
+      font-display: swap;
+  }
+  
+  @font-face {
+      font-family: 'Atlas Typewriter';
+      src: local('Atlas Typewriter Bold Italic'), local('AtlasTypewriterBold-Italic'),
+          url('../fonts/AtlasTypewriterBold-Italic.woff2') format('woff2'),
+          url('../fonts/AtlasTypewriterBold-Italic.woff') format('woff');
+      font-weight: bold;
+      font-style: italic;
+      font-display: swap;
+  }
+  
+  @font-face {
+      font-family: 'Atlas Typewriter';
+      src: local('Atlas Typewriter Regular Italic'), local('AtlasTypewriterRegular-Italic'),
+          url('../fonts/AtlasTypewriterRegular-Italic.woff2') format('woff2'),
+          url('../fonts/AtlasTypewriterRegular-Italic.woff') format('woff');
+      font-weight: normal;
+      font-style: italic;
+      font-display: swap;
+  }
+  
+  @font-face {
+      font-family: 'Atlas Typewriter';
+      src: local('Atlas Typewriter Bold'), local('AtlasTypewriterBold'),
+          url('../fonts/AtlasTypewriterBold.woff2') format('woff2'),
+          url('../fonts/AtlasTypewriterBold.woff') format('woff');
+      font-weight: bold;
+      font-style: normal;
+      font-display: swap;
+  }
+  
+  @font-face {
+      font-family: 'Atlas Typewriter';
+      src: local('Atlas Typewriter Medium'), local('AtlasTypewriterMedium'),
+          url('../fonts/AtlasTypewriterMedium.woff2') format('woff2'),
+          url('../fonts/AtlasTypewriterMedium.woff') format('woff');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+  }
+  
+  @font-face {
+      font-family: 'Atlas Typewriter';
+      src: local('Atlas Typewriter Medium Italic'), local('AtlasTypewriterMedium-Italic'),
+          url('../fonts/AtlasTypewriterMedium-Italic.woff2') format('woff2'),
+          url('../fonts/AtlasTypewriterMedium-Italic.woff') format('woff');
+      font-weight: 500;
+      font-style: italic;
+      font-display: swap;
+  }
+  
+  @font-face {
+      font-family: 'Atlas Typewriter';
+      src: local('Atlas Typewriter Regular'), local('AtlasTypewriterRegular'),
+          url('../fonts/AtlasTypewriterRegular.woff2') format('woff2'),
+          url('../fonts/AtlasTypewriterRegular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+  }
+  
   p {
     @apply max-w-prose;
   }
